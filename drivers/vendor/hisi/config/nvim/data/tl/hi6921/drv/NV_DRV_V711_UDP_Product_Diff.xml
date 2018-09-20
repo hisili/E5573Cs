@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NV_CATEGORY NAME="PRODUCT_DIFF"
+             MODE="TL"
+             CLASS="V711_UDP">
+  <!-- here all NV items for V711 UDP -->
+  <NV ID="0xd10c"
+		  NAME="NV_ID_DRV_NV_DFS_SWITCH"
+		  PARAM_NAME="ST_PWC_DFS_STRU"
+		  PARAM_VALUE="{85,60,1,3,85,60,1,3,100,0,0,85,60,5,3}"
+		  CATEGORY="DRV"
+		  WRITE_PRIORITY="0"
+		  CONFIDENTIAL="0"
+		  MODEM_NUMBER="1"
+		  DESCRIPTION="" />
+  <NV ID="0xD10F" 
+		  NAME="NV_ID_DRV_NV_PMU_EXC_PRO" 
+		  PARAM_NAME="PMU_EXC_PRO_NV_STRU" 
+		  PARAM_VALUE="{1,1,1,0,1,0,0,125,3000,{{0x0,0x1,0x0,0x1},{1,0x0,0x0,0x0},{2,0x0,0x0,0x0},{3,0x1,0x0,0x1},{4,0x0,0x0,0x0},{5,0x1,0x0,0x1},{6,0x0,0x0,0x0},{7,0x0,0x0,0x0},{8,0,0x0,0},{9,0,0x0,0},{10,0x1,0x0,0x1},{11,0x1,0x0,0x1},{12,0x1,0x0,0x1},{13,0x0,0x0,0x0},{14,0x1,0x0,0x1},{15,0x1,0x0,0x1},{16,0,0x0,0},{17,1,0x0,1},{18,1,0x0,1},{19,0x1,0x0,0x1},{20,0x0,0x0,0x0},{21,0x0,0x0,0x0},{22,0x0,0x0,0x0},{23,0x0,0x0,0x0},{24,0x0,0x0,0x0},{25,0x0,0x0,0x0},{26,0x0,0x0,0x0},{27,0x0,0x0,0x0},{28,0x0,0x0,0x0},{29,0x0,0x0,0x0},{30,0x0,0x0,0x0},{31,0x0,0x0,0x0},{32,0x0,0x0,0x0},{33,0x0,0x0,0x0},{34,0x0,0x0,0x0},{35,0x0,0x0,0x0},{36,0x0,0x0,0x0},{37,0x0,0x0,0x0},{38,0x0,0x0,0x0},{39,0x0,0x0,0x0},{40,0x0,0x0,0x0},{41,0x0,0x0,0x0},{42,0x0,0x0,0x0},{43,0x0,0x0,0x0},{44,0x0,0x0,0x0},{45,0x0,0x0,0x0},{46,0x0,0x0,0x0},{47,0x0,0x0,0x0},{48,0x0,0x0,0x0},{49,0x0,0x0,0x0}}}" 
+		  CATEGORY="DRV" 
+		  WRITE_PRIORITY="0" 
+		  CONFIDENTIAL="0" 
+		  MODEM_NUMBER="1" 
+		  DESCRIPTION="" />
+  <NV ID="0xD118"
+          NAME="NV_ID_DRV_MODULE_SUPPORT"
+          PARAM_NAME="DRV_MODULE_SUPPORT_STRU"
+          PARAM_VALUE="{{1,1,1,1,0,1,1,1,0}}"
+          CATEGORY="DRV"
+          WRITE_PRIORITY="0"
+          CONFIDENTIAL="0"
+          MODEM_NUMBER="1"
+          DESCRIPTION="" />
+  <NV ID="0xD111"
+      NAME="NV_ID_DRV_DUMP"
+      PARAM_NAME="NV_DUMP_STRU"
+      PARAM_VALUE="{{0,{{1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,0,0}}},0,0,0,0,0,0,0,0,0,0,0,0,1,1,0}"
+      CATEGORY="DRV"
+      WRITE_PRIORITY="0"
+      CONFIDENTIAL="0"
+      MODEM_NUMBER="1"
+      DESCRIPTION="" />
+
+  <PRODUCT_CAT NAME="hi6921_v711_udp">
+  <NV ID="0xd120"
+	NAME="TEMP_HKADC_CONFIG"
+	PARAM_NAME="TEMP_HKADC_CHAN_CONFIG_ARRAY"
+	PARAM_VALUE="{{{10,0,1,28,49,0},{10,0,1,28,35,0},{0,0,0,0,0,0},{10,0,1,32,10015,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0}}}"
+	CATEGORY="DRV"
+	WRITE_PRIORITY="0"
+	CONFIDENTIAL="0"
+	MODEM_NUMBER="1"
+	DESCRIPTION="" />
+  <NV ID="0xd126"
+	NAME="NV_ID_DRV_TEMP_CHAN_MAP"
+	PARAM_NAME="TEMP_HKADC_PHY_LOGIC_ARRAY"
+	PARAM_VALUE="{[5,0,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}"
+	CATEGORY="DRV"
+	WRITE_PRIORITY="0"
+	CONFIDENTIAL="0"
+	MODEM_NUMBER="1"
+	DESCRIPTION="" />
+    <NV ID="0xd121"
+        NAME="TEMP_TSENS_CONFIG"
+        PARAM_NAME="TEMP_TSENS_REGION_CONFIG_ARRAY"
+        PARAM_VALUE="{[{0,0xEC,2,0},{0,0xEC,2,0},{0,0xEC,2,0}]}"
+        CATEGORY="DRV"
+        WRITE_PRIORITY="0"
+        CONFIDENTIAL="0"
+        MODEM_NUMBER="1"
+        DESCRIPTION="" />
+      <NV ID="0xD01b"
+          NAME="NV_ID_MSP_TLMODE_CHAN_PARA_STRU"
+          PARAM_NAME="NV_TLMODE_CHAN_PARA_STRU"
+          PARAM_VALUE="{{{0, 0, 0, 0}, {0, 0, 0, 0}}}"
+          CATEGORY="MSP"
+          WRITE_PRIORITY="0"
+          CONFIDENTIAL="0"
+          MODEM_NUMBER="1"
+          DESCRIPTION="" />
+	<NV ID="0xd13f" 
+		NAME="NV_ID_DRV_DIALUP_ACSHELL"
+		PARAM_NAME="DRV_DIALUP_HSUART_STRU"
+		PARAM_VALUE="{0x1,0x0}"
+		CATEGORY="DRV"
+		WRITE_PRIORITY="0"
+		CONFIDENTIAL="0"
+		MODEM_NUMBER="1"
+		DESCRIPTION=""  />
+
+    <PRODUCT ID="0x71fffffb"
+             NAME="V711 UDP">
+      <!-- the NV items for HI6921_V711_UDP with no RF board or test board-->
+      <NV ID="0xD115"
+          NAME="NV_ID_DRV_NV_VERSION_INIT"
+          PARAM_VALUE="{0x71fffffb,0x0,{v711_udp},{},{HI6921MTBB},{V711_UDP},{v711_udp}}"
+          MODEM_NUMBER="1" />
+    </PRODUCT>
+    <PRODUCT ID="0X71000104"
+             NAME="HI6361EVB6 VER.D RF T">
+      <NV ID="0xD115"
+          NAME="NV_ID_DRV_NV_VERSION_INIT"
+          PARAM_VALUE="{0X71000104,0x0,{udp_rf},{},{HI6361EVB6 VER.D RF T},{UDP},{udp}}"
+          MODEM_NUMBER="1" />
+    </PRODUCT>
+   </PRODUCT_CAT>
+</NV_CATEGORY>

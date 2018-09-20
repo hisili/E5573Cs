@@ -1,0 +1,9 @@
+
+ //<   set  mib value,此txt文档必须遵循以下格式：<mib_name><一个或多个空格or TAB键><mib value>   >
+ 
+ //< 以下是设置外置LNA rssi mib value >
+
+rssi_offset                 8
+ofdm_rssi_offset            4
+adaptivity_enable           2
+bcn_dont_ignore_edcca       1

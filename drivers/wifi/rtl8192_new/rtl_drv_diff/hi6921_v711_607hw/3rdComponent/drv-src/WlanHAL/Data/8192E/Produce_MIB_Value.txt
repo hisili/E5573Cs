@@ -1,0 +1,24 @@
+
+ //<   set  mib value,此txt文档必须遵循以下格式：<mib_name><一个或多个空格or TAB键><mib value>   >
+ 
+ //< 以下是设置外置LNA rssi mib value >
+use_ext_lna			1
+ext_lna_gain			12
+rssi_offset			7
+ofdm_rssi_offset		5
+rx_pwr_7			-39
+rx_pwr_6			-43
+rx_pwr_5			-27
+rx_pwr_4			-21
+rx_pwr_3			-17
+rx_pwr_2			-7
+rx_pwr_1			9
+rx_pwr_0			15
+cck_cca_hi			64
+cck_cca_low			64
+lna_rx_hi			47
+lna_rx_low			47
+trswitch			1
+//< 以下为 CCA 自适应模式 mib value >
+adaptivity_enable		2
+bcn_dont_ignore_edcca		1

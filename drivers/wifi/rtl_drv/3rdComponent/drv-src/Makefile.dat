@@ -1,0 +1,224 @@
+#
+# drivers/net/rtl8192cd
+#
+# Makefile for the Linux Wireless network device drivers.
+#
+
+# Platform
+CONFIG_PLATFORM_PC := y
+CONFIG_PLATFORM_MIPSEB = n
+CONFIG_PLATFORM_MIPSEL = n
+CONFIG_PLATFORM_ARM = n
+
+# Interface
+CONFIG_USB_HCI = y
+CONFIG_PCI_HCI = n
+
+# wireless chip
+CONFIG_RTL_92D_SUPPORT := n
+
+# Option
+CONFIG_RTL_DUAL_PCIESLOT_BIWLAN_D := n
+CONFIG_RTL_WAPI_SUPPORT := n
+
+EXTRA_CFLAGS += -DCONFIG_RTL8192CD
+EXTRA_CFLAGS += -DCONFIG_ENABLE_EFUSE
+EXTRA_CFLAGS += -DCONFIG_RTL_92C_SUPPORT
+#EXTRA_CFLAGS += -DCONFIG_RTL_VAP_SUPPORT
+#EXTRA_CFLAGS += -D_BIG_ENDIAN_
+#EXTRA_CFLAGS += -D_LITTLE_ENDIAN_
+#EXTRA_CFLAGS += -DCONFIG_RTL_92D_DMDP
+EXTRA_CFLAGS += -DCONFIG_WIRELESS_LAN_MODULE
+#EXTRA_CFLAGS += -D_BROADLIGHT_BSP_
+#EXTRA_CFLAGS += -D_BROADLIGHT_FASTPATH_
+EXTRA_CFLAGS += -DNOT_RTK_BSP
+#EXTRA_CFLAGS += -DTMP_PROC_GPIO
+#EXTRA_CFLAGS += -DSMP_SYNC
+#EXTRA_CFLAGS += -DCONFIG_RTL_DUAL_PCIESLOT_BIWLAN
+EXTRA_CFLAGS += -D_FULLY_WIFI_IGMP_SNOOPING_SUPPORT_
+#EXTRA_CFLAGS += -DCONFIG_RTL_WDS_SUPPORT
+#EXTRA_CFLAGS += -DMP_TEST
+#EXTRA_CFLAGS += -DCONFIG_PROC_FS
+#EXTRA_CFLAGS += -DCONFIG_SYSFS
+#EXTRA_CFLAGS += -DCONFIG_PRINTK
+#EXTRA_CFLAGS += -DCONFIG_PHY_EAT_40MHZ
+
+#EXTRA_CFLAGS += -DCONFIG_RTL_CLIENT_MODE_SUPPORT
+#EXTRA_CFLAGS += -DCONFIG_RTL_REPEATER_MODE_SUPPORT
+
+ifeq ($(CONFIG_USB_HCI),y)
+  MODULE_NAME := rtl8192cu
+  EXTRA_CFLAGS += -DCONFIG_USB_HCI
+  $(MODULE_NAME)-objs += 8192cd_usb.o 8192cd_usb_xmit.o 8192cd_usb_recv.o 8192cd_usb_cmd.o
+endif
+
+ifeq ($(CONFIG_PCI_HCI),y)
+  MODULE_NAME := rtl8192cd
+  EXTRA_CFLAGS += -DCONFIG_PCI_HCI
+endif
+
+ifeq ($(CONFIG_RTL_92D_SUPPORT),y)
+  EXTRA_CFLAGS += -DCONFIG_RTL_92D_SUPPORT
+  ifeq ($(CONFIG_RTL_DUAL_PCIESLOT_BIWLAN_D),y)
+  RTL_WLAN_DATA_DIR := data
+  endif
+  RTL_WLAN_DATA_DIR_D := data_92d
+else
+  RTL_WLAN_DATA_DIR := data
+endif
+
+SRCS_TXT = $(addprefix $(src)/data_,$(notdir $(patsubst %.txt,%.c,$(wildcard $(src)/$(RTL_WLAN_DATA_DIR)/*.txt))))
+SRCS_BIN = $(addprefix $(src)/data_,$(notdir $(patsubst %.bin,%.c,$(wildcard $(src)/$(RTL_WLAN_DATA_DIR)/*.bin))))
+ifeq ($(CONFIG_RTL_92D_SUPPORT),y)
+SRCS_TXT += $(addprefix $(src)/data_,$(notdir $(patsubst %.txt,%.c,$(wildcard $(src)/$(RTL_WLAN_DATA_DIR_D)/*.txt))))
+SRCS_BIN += $(addprefix $(src)/data_,$(notdir $(patsubst %.bin,%.c,$(wildcard $(src)/$(RTL_WLAN_DATA_DIR_D)/*.bin))))
+endif
+
+
+
+obj-m += $(MODULE_NAME).o
+
+$(MODULE_NAME)-objs +=\
+	8192cd_tx.o\
+	8192cd_rx.o\
+	8192cd_osdep.o\
+	8192cd_sme.o\
+	8192cd_util.o\
+	8192d_hw.o\
+	8192cd_hw.o\
+	8192cd_security.o\
+	8192cd_tkip.o\
+	8192cd_aes.o\
+	8192cd_proc.o\
+	8192cd_br_ext.o\
+	8192cd_eeprom.o\
+	8192cd_mp.o\
+	8192cd_psk.o\
+	8192cd_ioctl.o\
+	1x_kmsm_aes.o\
+	1x_kmsm_hmac.o\
+	1x_md5c.o\
+	1x_rc4.o\
+	8192cd_mib.o\
+	8192cd_dmem.o\
+	romeperf.o\
+	Hal8192CDMOutSrc.o
+	
+ifeq ($(CONFIG_RTL_COMAPI_CFGFILE),y)
+obj-y += 8192cd_comapi.o
+endif
+ifeq ($(CONFIG_RTL_COMAPI_WLTOOLS),y)
+obj-y += 8192cd_comapi.o
+endif
+#For Hostapd
+ifeq ($(CONFIG_RTL_HOSTAPD_SUPPORT),y)
+obj-y += 8192cd_comapi.o
+obj-y += 8192cd_net80211.o
+obj-y += 8192cd_psk_hapd.o
+endif
+ifeq ($(CONFIG_RTL_WAPI_SUPPORT),y)
+  EXTRA_CFLAGS += -DCONFIG_RTL_WAPI_SUPPORT
+  obj-y += wapi_wai.o wapiCrypto.o
+endif
+
+#CONFIG_SINUX_SUPPORT=1
+ifeq ($(CONFIG_SINUX_SUPPORT),1)
+EXTRA_CFLAGS  += -DOPENSSL_FIPS -D__linux__ -DRSDK_BUILT -DOPENSSL_NO_SPEED -DOPENSSL_THREADS -D_REENTRANT \
+                        -DDSO_DLFCN -DHAVE_DLFCN_H -DOPENSSL_NO_KRB5 -DB_ENDIAN -DTERMIO \
+			-fomit-frame-pointer 
+# -save-temps                      
+                        
+obj-y  += wps/ssl/mem.o wps/ssl/mem_clr.o wps/ssl/bn_add.o wps/ssl/bn_lib.o \
+			wps/ssl/bn_asm.o wps/ssl/bn_const.o wps/ssl/bn_ctx.o \
+                wps/ssl/bn_div.o wps/ssl/bn_exp.o wps/ssl/bn_gcd.o \
+				wps/ssl/bn_mod.o wps/ssl/bn_mont.o \
+                wps/ssl/bn_mul.o wps/ssl/bn_prime.o wps/ssl/bn_rand.o \
+				wps/ssl/bn_recp.o wps/ssl/bn_shift.o wps/ssl/bn_sqr.o \
+                wps/ssl/bn_word.o wps/ssl/dh_check.o wps/ssl/dh_gen.o \
+				wps/ssl/dh_key.o wps/ssl/dh_lib.o wps/ssl/digest.o \
+                wps/ssl/m_sha1.o wps/ssl/hmac.o wps/ssl/md_rand.o \
+				wps/ssl/rand_lib.o wps/ssl/sha1dgst.o wps/ssl/sha256.o \
+                wps/ssl/aes_cbc.o wps/ssl/fips_aes_core.o
+				
+#EXTRA_CFLAGS += -I../../../lib
+obj-y += wps/8192cd_wscd.o
+obj-y += wps/sercomm_intf.o
+endif
+
+#EXTRA_CFLAGS += -I$(DIR_BOARD) 
+
+#EXTRA_CFLAGS += -I$(DIR_BOARD) -Werror
+#EXTRA_CFLAGS += -I$(DIR_LINUX)/drivers/net/rtl819x/
+
+
+PWD := $(shell pwd)
+
+
+# PLATFORM_PC
+ifeq ($(CONFIG_PLATFORM_PC),y)
+EXTRA_CFLAGS += -D__PC__ -D_LITTLE_ENDIAN_ -DSMP_SYNC
+SUBARCH := $(shell uname -m | sed -e s/i.86/i386/)
+ARCH ?= $(SUBARCH)
+CROSS_COMPILE ?=
+KVER  := $(shell uname -r)
+KSRC := /lib/modules/$(KVER)/build
+endif
+
+# PLATFORM_MIPSEB
+ifeq ($(CONFIG_PLATFORM_MIPSEB), y)
+EXTRA_CFLAGS += -D_BIG_ENDIAN_ -DSMP_SYNC
+ARCH := rlx
+CROSS_COMPILE := rsdk-linux-
+KSRC := linux-2.6.30
+endif
+
+# PLATFORM_MIPSEL
+ifeq ($(CONFIG_PLATFORM_MIPSEL), y)
+EXTRA_CFLAGS += -D_LITTLE_ENDIAN_ -DSMP_SYNC
+ARCH := mips
+CROSS_COMPILE := mipsel-linux-
+KSRC:= stblinux
+endif
+
+# PLATFORM_ARM
+ifeq ($(CONFIG_PLATFORM_ARM), y)
+EXTRA_CFLAGS += -D_LITTLE_ENDIAN_ -DSMP_SYNC
+ARCH := arm
+CROSS_COMPILE := arm-linux-
+KSRC:= mozart_kernel-1.17
+endif
+
+#
+#
+
+
+
+all: modules
+
+modules:
+	make  ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KSRC) M=$(PWD) modules
+	$(CROSS_COMPILE)strip --strip-debug $(MODULE_NAME).ko
+
+clean:
+	rm -f *.o
+	rm -f *.mod.c
+	rm -f .*.cmd
+	rm -f Module.symvers
+	rm -f modules.order
+	rm -f *.ko
+	rm -rf .tmp_versions
+	rm -f data_*.c
+
+#
+#Build C code for TXT or BIN file
+#
+$(obj)/8192cd_hw.o :  $(SRCS_TXT) $(SRCS_BIN)
+
+$(obj)/data_%.c: $(src)/$(RTL_WLAN_DATA_DIR)/%.txt FORCE
+	@$(obj)/bin2c.pl $(notdir $(basename $@)) < $< > $@
+$(obj)/data_%.c: $(src)/$(RTL_WLAN_DATA_DIR)/%.bin FORCE
+	@$(obj)/bin2c.pl $(notdir $(basename $@)) < $< > $@
+$(obj)/data_%.c: $(src)/$(RTL_WLAN_DATA_DIR_D)/%.txt FORCE
+	@$(obj)/bin2c.pl $(notdir $(basename $@)) < $< > $@
+$(obj)/data_%.c: $(src)/$(RTL_WLAN_DATA_DIR_D)/%.bin FORCE
+	@$(obj)/bin2c.pl $(notdir $(basename $@)) < $< > $@

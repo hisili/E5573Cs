@@ -1,0 +1,143 @@
+
+
+#ifndef __RNICDEMANDDIALFILEIO_H__
+#define __RNICDEMANDDIALFILEIO_H__
+
+/*****************************************************************************
+  1 其他头文件包含
+*****************************************************************************/
+#if (VOS_OS_VER == VOS_LINUX)
+#include <linux/module.h>
+#include <linux/proc_fs.h>
+#include <linux/kallsyms.h>
+#include <asm/uaccess.h>
+#else
+#include "RnicLinuxInterface.h"
+#endif
+
+
+#ifdef __cplusplus
+#if __cplusplus
+extern "C" {
+#endif
+#endif
+
+
+#pragma pack(4)
+
+/*****************************************************************************
+  2 宏定义
+*****************************************************************************/
+
+
+#define RNIC_ONDEMAND_FILE_LEN          (4)
+
+#define RNIC_IDLETIMEROUT_FILE_LEN      (16)
+
+#define RNIC_EVENTFLAG_FILE_LEN         (4)
+
+#define RNIC_VFILE_CRT_LEVEL            (0770)
+
+/*****************************************************************************
+  3 枚举定义
+*****************************************************************************/
+
+
+/*****************************************************************************
+  4 全局变量声明
+*****************************************************************************/
+
+
+/*****************************************************************************
+  5 消息头定义
+*****************************************************************************/
+
+
+/*****************************************************************************
+  6 消息定义
+*****************************************************************************/
+
+
+/*****************************************************************************
+  7 STRUCT定义
+*****************************************************************************/
+
+
+/*****************************************************************************
+  8 UNION定义
+*****************************************************************************/
+
+
+/*****************************************************************************
+  9 OTHERS定义
+*****************************************************************************/
+
+
+/*****************************************************************************
+  10 函数声明
+*****************************************************************************/
+extern VOS_UINT32 RNIC_InitDialEventReportFile(struct proc_dir_entry *pstParentFileDirEntry);
+extern VOS_UINT32 RNIC_InitIdleTimerOutFile(struct proc_dir_entry *pstParentFileDirEntry);
+extern VOS_UINT32 RNIC_InitOnDemandFile(struct proc_dir_entry *pstParentFileDirEntry);
+extern ssize_t RNIC_ReadDialEventReportFile(
+           struct file                        *file,
+           char __user                        *buf,
+           size_t                              len,
+           loff_t                             *ppos
+       );
+extern ssize_t RNIC_ReadIdleTimerOutFile(
+           struct file                        *file,
+           char __user                        *buf,
+           size_t                              len,
+           loff_t                             *ppos
+       );
+extern ssize_t RNIC_ReadOnDemandFile(
+           struct file                        *file,
+           char __user                        *buf,
+           size_t                              len,
+           loff_t                             *ppos
+       );
+extern ssize_t RNIC_WriteDialEventReportFile(
+           struct file                        *file,
+           const char __user                  *buf,
+           size_t                              len,
+           loff_t                             *ppos
+       );
+extern ssize_t RNIC_WriteIdleTimerOutFile(
+           struct file                        *file,
+           const char __user                  *buf,
+           size_t                              len,
+           loff_t                             *ppos
+       );
+extern ssize_t RNIC_WriteOnDemandFile(
+           struct file                        *file,
+           const char __user                  *buf,
+           size_t                              len,
+           loff_t                             *ppos
+       );
+extern VOS_UINT32 RNIC_InitDemandDialFile(VOS_VOID);
+
+
+
+
+
+
+
+
+
+#if (VOS_OS_VER == VOS_WIN32)
+#pragma pack()
+#else
+#pragma pack(0)
+#endif
+
+
+
+
+#ifdef __cplusplus
+    #if __cplusplus
+        }
+    #endif
+#endif
+
+#endif /* end of RnicDemandDialFileIO.h */

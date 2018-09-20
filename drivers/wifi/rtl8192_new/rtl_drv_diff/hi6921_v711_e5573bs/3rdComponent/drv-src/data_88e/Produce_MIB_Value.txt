@@ -1,0 +1,6 @@
+
+ //<   set  mib value,此txt文档必须遵循以下格式：<mib_name><一个或多个空格or TAB键><mib value>   >
+//<mib_key_name>            <mib_key_value>
+
+//< 以下为 CCA 自适应模式 mib value >
+adaptivity_enable        2

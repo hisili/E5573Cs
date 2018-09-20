@@ -1,0 +1,2740 @@
+[33mcommit e4ba2d9edd374607cb93180cfd5c827ea12196ba[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Sat May 31 18:04:55 2014 +0800
+
+    DTS:DTS2014052306849
+    Description:V9 merge
+    Feature or Bugfix:
+    Change-Id: I009814ad73bc2905bdde72b36667cd246e1ae206
+
+[33mcommit 739df40757024ce6ffef9287e30659609c49e7dc[m
+Author: w00133787 <w00133787@notesmail.huawei.com>
+Date:   Thu May 29 19:33:31 2014 +0800
+
+    DTS:dts2014052900588
+    Description:modify 1.4M ACS thr from 0x3c to 0x6.
+    Feature or Bugfix:
+    
+    Change-Id: I8b411cafb821314daa28c070d3b7431825aef6a4
+
+[33mcommit e761d3782b16bcca1e49dc9d05822e19774e02bd[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Thu May 29 23:15:45 2014 +0800
+
+    DTS:dts2014052602194
+    Description:fr nv
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I2660a89eca867d6d1ee42f3e9a47e7fbb993640f
+
+[33mcommit c6e0229224aadd8c870f388d4f9c4998a1c4150b[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Wed May 28 14:32:46 2014 +0800
+
+    DTS:2014051603151
+    Description:modify for modem1 pa power control
+    Feature or Bugfix:
+    
+    Change-Id: Iec355c6e34e6760f47221cac83fc300a604d4426
+
+[33mcommit 25d74da4b0f57a0b7b043181d56a3a192d2380bf[m
+Author: z00165872 <z00165872@notesmail.huawei.com>
+Date:   Tue May 27 16:42:53 2014 +0800
+
+    DTS:DTS2014052704264
+    Description:TDS LPC
+    Feature or Bugfix:BUGFIX
+    
+    Change-Id: Ibc99a8a009375daad91d9ef919a92d6f07ffdaea
+
+[33mcommit 2cf2e5dd771788cdd10b45f813db7fa433049322[m
+Author: l00258641 <l00258641@notesmail.huawei.com>
+Date:   Tue May 27 04:36:14 2014 +0800
+
+    DTS:DTS2014052603446
+    Description:Open Frame Ind stub
+    Feature or Bugfix:Bugfix
+    Branches2merge:
+    Change-Id: I3ea43330d641f6d33eb3b378633a891bc9fb004e
+
+[33mcommit f32a573801906228f1cd0fc27ea3bba905474594[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Mon May 26 12:24:12 2014 +0800
+
+    DTS:2014051603151
+    Description:modify nv 0xd13a for modem1 pa power control
+    Feature or Bugfix:
+    
+    Change-Id: I7a314a0acf8f2637996e1ad84c7fc39fa4f1267c
+
+[33mcommit 1d93787c39476fe519c0e0a4c633f632ad7fb915[m
+Author: z00213447 <z00213447@notesmail.huawei.com>
+Date:   Thu May 22 16:34:45 2014 +0800
+
+    DTS:2014052206243
+    Description: sync  rf vcom  nv   form v9 to v7
+    Feature or Bugfix:
+    
+    Change-Id: I427f737c5aa22766a9210affc8209c610f480f87
+
+[33mcommit abb8eba9700fda6294471b90471c6b20a287d226[m
+Author: w00209181 <w00209181@notesmail.huawei.com>
+Date:   Thu May 22 18:25:38 2014 +0800
+
+    DTS:DTS2014052101584
+    Description:ATH,VOIP
+    Feature or Bugfix:
+    
+    Change-Id: Id92a11fa60085821c811c9d5540d520d42eb570b
+
+[33mcommit 3a1ccc864c71b5ec114347d416dcabf91700d5df[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Thu May 22 12:01:59 2014 +0800
+
+    DTS:2014051603151
+    Description:add nv 0xd13a for modem1 pa power control
+    Feature or Bugfix:
+    
+    Change-Id: I0e533851ae1d0aa9d421c22a80cb28cef5659648
+
+[33mcommit e5556626e795d1a799c1cc66ca858f8b2f26886c[m
+Author: z00265007 <z00265007@notesmail.huawei.com>
+Date:   Tue May 20 12:04:33 2014 +0800
+
+    DTS:DTS2014022605020
+    Description:dual modem uart
+    Feature or Bugfix:Feature
+    Change-Id: I2dedae6dac7075b6bfcf8a8c019581a4f6ba8a38
+
+[33mcommit 2ac37530014ff54f2454da0288b58752ea5f4009[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Tue May 20 19:13:44 2014 +0800
+
+    DTS:dts2014051508040
+    Description:lock freq
+    Feature or Bugfix:Feature
+    Change-Id: I6f6cc641f6c0dd24111be53535d1c8a7183092ae
+
+[33mcommit 8c43b04dd1299943fe8c951a208210a87d213d5a[m
+Author: z00227143 <z00227143@notesmail.huawei.com>
+Date:   Tue May 20 10:11:36 2014 +0800
+
+    DTS:2014050904206
+    Description:rse
+    Feature or Bugfix:
+    Change-Id: I2b982680877d6ba207416249514be3ab02f3f647
+
+[33mcommit f67cf4eb39a2274dc55c042ad0f92d11a628f43b[m
+Author: z00165872 <z00165872@notesmail.huawei.com>
+Date:   Thu May 15 15:24:31 2014 +0800
+
+    DTS:DTS2014051504499
+    Description:tds idle drx optimize
+    Feature or Bugfix:
+    Change-Id: I3a4a995a42961bf4e49e993c8aa6b5943319798a
+
+[33mcommit 69393a4d71d432a995f73aacb3e8e22eb890ef38[m
+Author: l00258641 <l00258641@notesmail.huawei.com>
+Date:   Fri May 16 01:59:14 2014 +0800
+
+    DTS:DTS2014042605383
+    Description:T315 Length Read From NV
+    Feature or Bugfix:Bugfix
+    Branches2merge:
+    Change-Id: I1a64d3a0d127ad4e93fc0e4a27f464de6f261fa4
+    	modified:   hi6930/lps/LPS_NV_Common_Config_TL.xml
+
+[33mcommit 475a9094544f72c0dd8d8130a38765126eee5fb3[m
+Author: l00225826 <l00225826@notesmail.huawei.com>
+Date:   Mon May 12 11:48:31 2014 +0800
+
+    DTS:2014050904206
+    Description:rf gpio
+    Feature or Bugfix:
+    
+    Change-Id: I13df2d790dd55b8151ba71e7980075f983dce092
+
+[33mcommit 5589c18732f5872296e3a957286876177fcb5ead[m
+Author: w00221810 <w00221810@notesmail.huawei.com>
+Date:   Tue May 13 14:54:36 2014 +0800
+
+    DTS:dts2014050802768
+    Description:NV D3CF T8,TUL MODIFY
+    Feature or Bugfix:
+    
+    Change-Id: I775b3c1c57cc61541ea113028d84124948cd3b4a
+
+[33mcommit 4473eb0aa4aa6d506120bf7d604c5faca81c4fe7[m
+Author: y00172000 <y00172000@notesmail.huawei.com>
+Date:   Sun May 4 14:19:51 2014 +0800
+
+    DTS:2014041708782
+    Description:tdd t8ul mod
+    Feature or Bugfix:
+    
+    Change-Id: I65d58685aa932302d778c2dd06b81615682803b2
+
+[33mcommit fc1b095df0a2ea205d78dfbe6bcb535e82b5d1bd[m
+Author: l00258641 <l00258641@notesmail.huawei.com>
+Date:   Sun May 4 21:00:09 2014 +0800
+
+    DTS:DTS2014050300211
+    Description:sync from kit
+    Feature or Bugfix:Bugfix
+    Branches2merge:
+    
+    Change-Id: Ia0b49f24861e9857eb31a7fc8a1c2cc4d865c47d
+
+[33mcommit 7276f5cd54b3c9c510387d6b77f686bf69ddf8d3[m
+Author: l00258641 <l00258641@notesmail.huawei.com>
+Date:   Tue Apr 29 02:50:43 2014 +0800
+
+    DTS:DTS2014042305839
+    Description:sync nv NV_ID_BAND41_CAND_INFO from kitkat
+    Feature or Bugfix:Bugfix
+    Branches2merge:
+    
+    Change-Id: I6e1bd7abf75cb4160408b8d971625628dbd71f3e
+
+[33mcommit 085b14e2df7a6ee89caa35832dfc78915ec4caf7[m
+Author: l00258641 <l00258641@notesmail.huawei.com>
+Date:   Mon Apr 28 22:25:01 2014 +0800
+
+    DTS:DTS2014042305839
+    Description:sync nv write_priority from kitkat
+    Feature or Bugfix:Bugfix
+    Branches2merge:
+    
+    Change-Id: I923e3c89bf754e82271f9f4eb02e42594d1f795a
+
+[33mcommit 3d6b7015b00429e2a773f4938c231d22ac64d604[m
+Author: s00219058 <s00219058@notesmail.huawei.com>
+Date:   Fri Apr 25 16:58:14 2014 +0800
+
+    DTS:DTS2014031805621
+    Description:bbp timer in pm
+    Feature or Bugfix:
+    
+    Change-Id: Ib41b098460e07cf09b3bdfa2ec909be44bc876b0
+
+[33mcommit 8a79041fac35fd18c3f3f4d0c3ead6aaa861157c[m
+Author: c00253308 <c00253308@notesmail.huawei.com>
+Date:   Sat Apr 26 11:12:26 2014 +0800
+
+    DTS:2014042601584
+    Description:SSP 6:6:2
+    Feature or Bugfix:
+    Change-Id: Ib7b496516f3ece21523d242fe80a11811e6954a3
+
+[33mcommit aa2e8b97f619fee657e225d7c0c4e786852c2200[m
+Author: c00253308 <c00253308@notesmail.huawei.com>
+Date:   Fri Apr 25 17:56:30 2014 +0800
+
+    DTS:DTS2014042305839
+    Description:sync EN_NV_ID_TDS_AREA_LOST_THSD from kitkat
+    Feature or Bugfix:
+    Change-Id: Idb87d856519ab5ffe4779f724e9242e9a687b6d2
+
+[33mcommit ca614531d50cf2a6b86255a27e20d042c12285a2[m
+Author: c00253308 <c00253308@notesmail.huawei.com>
+Date:   Fri Apr 25 14:59:41 2014 +0800
+
+    DTS:2014042409603
+    Description:Dual Ant Lrrc
+    Feature or Bugfix:
+    Change-Id: I8f6450f542298a5c184c9198e054592daf23f0fb
+
+[33mcommit a55d3a0ff595a9f90d5131d439d7d8179cd21bd0[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Fri Apr 25 11:03:07 2014 +0800
+
+    DTS:DTS2014030708407
+    Description:change dfs check to 100ms
+    Feature or Bugfix:
+    
+    Change-Id: I28019d91d94a090d3782ced328cfacc7c646bea9
+
+[33mcommit f85e00bac8136479ec866914d4a5edaafccc7010[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Thu Apr 24 14:15:30 2014 +0800
+
+    DTS:DTS2014041603793
+    Description:update for band28 total band
+    Feature or Bugfix:
+    Change-Id: Idab90741f990462c24fd788f399da25fda282290
+
+[33mcommit 03093d5ab50f2918d712fb5d649a8d84b79b31d3[m
+Author: l00258641 <l00258641@notesmail.huawei.com>
+Date:   Tue Apr 22 04:09:47 2014 +0800
+
+    DTS:DTS2014042105578
+    Description:sync from kitkat
+    Feature or Bugfix:Bugfix
+    Branches2merge:
+    Change-Id: I9661cc1c3ca09fd391941239f52f918cd9a5ab9e
+
+[33mcommit 1e7f85934e85032369fee13bc0df36e6137b8404[m
+Author: l00258641 <l00258641@notesmail.huawei.com>
+Date:   Fri Apr 18 19:35:27 2014 +0800
+
+    DTS:DTS2014041608082
+    Description:fix NV 0xD26C
+    Feature or Bugfix:Bugfix
+    Branches2merge:
+    
+    Change-Id: Ifc6a2106aa4301e357c775bcbbb6b68d42eb67e6
+
+[33mcommit db6cbb3db4df5b685c0c19859a5e6b39bbdc8f96[m
+Author: b00113022 <b00113022@notesmail.huawei.com>
+Date:   Wed Apr 16 16:10:21 2014 +0800
+
+    DTS:dts2014041506617
+    Description:
+    Feature or Bugfix:
+    
+    Change-Id: Iab47d759c162e600270584eb5a86ed220e28c00c
+
+[33mcommit f48d34177f14d37c3a3c3bd93c058bcc4d7dd6b8[m
+Author: z00165872 <z00165872@notesmail.huawei.com>
+Date:   Mon Apr 14 19:41:32 2014 +0800
+
+    DTS:DTS2014040201556
+    Description:LTE/TDS wake up waiting time change to 13ms
+    Feature or Bugfix:
+    
+    Change-Id: I31d32bd68d9ca35fad2eb06debd434ebb659f8a5
+
+[33mcommit 10f9e1565cb519b6ec9019e1bc229d39e5ea28ed[m
+Author: l00225826 <l00225826@notesmail.huawei.com>
+Date:   Mon Apr 14 15:33:22 2014 +0800
+
+    DTS:2014022204466
+    Description:anten and gpio nv
+    Feature or Bugfix:
+    
+    Change-Id: I37762bca0e3b3439ea4f2806cb34780ddfc96985
+
+[33mcommit 20e68ebe9b4f7f44c839e89f1b3973bcbd523c77[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Sat Apr 12 17:34:06 2014 +0800
+
+    DTS:DTS2014041203017
+    Description:k3v3 Lte nv modify
+    Feature or Bugfix:
+    
+    Change-Id: I78c83c8cda87d90aabde4f13b3447e50ff4ea197
+
+[33mcommit be37642ea0db7bd8627f1c764d6cb45655c8de1f[m
+Author: s00219058 <s00219058@notesmail.huawei.com>
+Date:   Mon Apr 14 11:21:02 2014 +0800
+
+    DTS:DTS2014040107019
+    Description:l2cache nv
+    Feature or Bugfix:
+    
+    Change-Id: I79a7839033e234daf15b1711b9f920a8f4f51cbf
+
+[33mcommit 9845186df605cdaed264de60119ec58d141d594b[m
+Author: z00165872 <z00165872@notesmail.huawei.com>
+Date:   Fri Apr 11 16:53:47 2014 +0800
+
+    DTS:DTS2014040201556
+    Description:tds TDS wake up waiting time change to 12ms
+    Feature or Bugfix:bugfix
+    
+    Change-Id: I3715cd6d5bb633ef746ddf9cbbc5844f92664af9
+
+[33mcommit c9f12fd6bce3c4a1ad47e3795581e24f8d317903[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Fri Apr 11 14:40:27 2014 +0800
+
+    DTS:DTS2014040208741
+    Description:road test nv
+    Feature or Bugfix:
+    
+    Change-Id: Ib6616c978c1faa7502c84ca75629cf7baabffc57
+
+[33mcommit 216e9dae2e780b9fdca00f23ff5a8c870b437dc9[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Wed Apr 9 16:51:28 2014 +0800
+
+    DTS:2014040907054
+    Description:Controlling pastar every buck/ldo open or close with NV
+    Feature or Bugfix:
+    
+    Change-Id: I28e26d632a163db3a56e140a0d3a68dfd6881e12
+
+[33mcommit 772bb74113384f7bd8521ee2ab504e183af803e2[m
+Author: y00184236 <y00184236@notesmail.huawei.com>
+Date:   Wed Apr 9 21:03:50 2014 +0800
+
+    DTS:null
+    Description:open nv feature of modem reset on phone
+    Feature or Bugfix:Bugfix
+    Change-Id: I8e3a6d4b66a80a0886360edb24f2ebcabbd8060d
+
+[33mcommit f78d42256db57f44f8501f2df94249bd3969b251[m
+Author: y00193980 <y00193980@notesmail.huawei.com>
+Date:   Wed Apr 9 15:11:53 2014 +0800
+
+    DTS:DTS2014032806567
+    Description:Add diff.xml for hi3630_udp nv build
+    Feature or Bugfix:
+    
+    Change-Id: I0761aa2bff11e02e5269aa787a14f0db7cd567a6
+
+[33mcommit 245d2299139a09a0bdeec5add79d6fad49deba5b[m
+Author: w00209181 <w00209181@notesmail.huawei.com>
+Date:   Wed Apr 9 02:06:42 2014 +0800
+
+    DTS:DTS2014040804727
+    Description:NV DEFAULT VALUE
+    Feature or Bugfix:
+    
+    Change-Id: I03fdbe353a006234584800216052cc140f0a7c61
+
+[33mcommit 93da62c769e9b6985383f67fc75bf09d3107f3b4[m
+Author: m00193381 <m00193381@notesmail.huawei.com>
+Date:   Wed Apr 9 03:35:26 2014 +0800
+
+    DTS:DTS2014011307608
+    Description:ET k3v3
+    Feature or Bugfix:
+    
+    Change-Id: I753dfad731355ea4b733605de85e6e455a58b43b
+
+[33mcommit 2fb40aed15c1ba39a4c19e18d42ec6f91f1b49ac[m
+Author: s00193151 <s00193151@notesmail.huawei.com>
+Date:   Wed Apr 9 01:55:02 2014 +0800
+
+    DTS:2014033100570
+    Description:sync K3V3 NV kitkat to v7r2bugfix write nv prio
+    Feature or Bugfix:s00193151
+    
+    Change-Id: I5cf03b59caf9499232101c6a422627542efa4137
+
+[33mcommit c8c1cef3f76a38c7dec643c286cae27dc6bde69f[m
+Author: s00193151 <s00193151@notesmail.huawei.com>
+Date:   Wed Apr 2 19:43:25 2014 +0800
+
+    DTS:2014033100570
+    Description:add nwcause nv
+    Feature or Bugfix:s00193151
+    Change-Id: Ia2a34971dfb378f4e33146aba9e3159859b33c84
+
+[33mcommit 064a8aa3a4a24cfd6f631a3b3ab014969e1d4d39[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Wed Apr 2 14:16:44 2014 +0800
+
+    DTS:DTS2014032002215
+    Description:change ddr up max
+    Feature or Bugfix:
+    
+    Change-Id: Ibba729343898ae8f3a2d3e7c5c49c3dea469f3d8
+
+[33mcommit 34ead0cbf22ede413e6ea2127a3df826e2a6cf24[m
+Author: z00265007 <z00265007@notesmail.huawei.com>
+Date:   Sat Mar 29 17:00:40 2014 +0800
+
+    DTS:DTS2014022605020
+    Description:dual modem uart
+    Feature or Bugfix:Feature
+    Change-Id: I725f81b109ef8228b3876a814c669427b2da7ceb
+
+[33mcommit cc1a2eb726300546983bdc9c1e5993d47287758b[m
+Author: y00184236 <y00184236@notesmail.huawei.com>
+Date:   Mon Mar 31 10:43:26 2014 +0800
+
+    DTS:DTS2014022503497
+    Description:modem reset 18th stage(add reset excecution time stat info and enable reset feature)
+    Feature or Bugfix:Bugfix
+    Change-Id: I36f0d0eca273a4f59e68d4d4eac4ad5c5e20ea87
+
+[33mcommit 0a9d261dd96cbcdc660dcdd2c978ebb236d5f8a4[m
+Author: z00227143 <z00227143@notesmail.huawei.com>
+Date:   Sat Mar 29 19:54:51 2014 +0800
+
+    DTS:2014022202138
+    Description:hifi
+    Feature or Bugfix:
+    
+    Change-Id: Id761d3fd796242011f8dffa77bc9a92b92c84bc8
+
+[33mcommit bef0c9fa28a03ee4a317c741c811c2a5bcfb3ff2[m
+Author: d00209188 <d00209188@notesmail.huawei.com>
+Date:   Sun Mar 30 01:53:31 2014 +0800
+
+    DTS:null
+    Description:k3v3 d275
+    Feature or Bugfix:
+    
+    	modified:   LPS_NV_K3V3_Product_Diff.xml
+    
+    Change-Id: I5fdb7581886167373683ba35a1f9f2d94f0b68ce
+
+[33mcommit 6a4f4e74fb74a4c01b24a2ce41ca59bbb59ff026[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Sat Mar 29 17:14:09 2014 +0800
+
+    DTS:DTS2014032002215
+    Description:open dfs assistant ddr
+    Feature or Bugfix:
+    
+    Change-Id: I13b584481669055a32b7923c53c87075a1e78488
+
+[33mcommit d191d9f8758c55c0aafe0d8d280a5006a5a2c229[m
+Author: y00228784 <y00228784@notesmail.huawei.com>
+Date:   Sat Mar 29 19:23:19 2014 +0800
+
+    DTS:DTS2013031809801
+    Description:ETB nv modify for cuijunqiang
+    Feature or Bugfix:
+    
+    Change-Id: Ia3b552d33f123fa1480693e0894c2481f6b45e85
+
+[33mcommit 7776eceb1723836f531bbaa8389bc042f7470375[m
+Author: y00184236 <y00184236@notesmail.huawei.com>
+Date:   Fri Mar 28 18:29:40 2014 +0800
+
+    DTS:null
+    Description:disable modem reset feature
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: If85ba68abb70d70b70d802cf3feda2abeff94573
+
+[33mcommit 334481af1c090bb10e9fdbfafb2346a43f638047[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Tue Mar 25 16:06:39 2014 +0800
+
+    DTS:DTS2014032400000
+    Description:Wifi LTE Coex
+    Feature or Bugfix:
+    Change-Id: I21abaae0bd7aa5e7734ff6cf81c321b91df42049
+
+[33mcommit 126dc90b2c91b8802be04ece5e3d220a73f8728d[m
+Author: y00184236 <y00184236@notesmail.huawei.com>
+Date:   Tue Mar 25 15:56:56 2014 +0800
+
+    DTS:DTS2014022503497
+    Description:modem reset 13th stage(add nv feature control)
+    Feature or Bugfix:Bugfix
+    Change-Id: I0ffc8fd383ae12fd59fd228e5459fcd26202e28b
+
+[33mcommit df75a6f0595a50f1d0a7ce5f45cc394c5d3d911a[m
+Author: m00193381 <m00193381@notesmail.huawei.com>
+Date:   Mon Mar 24 22:13:53 2014 +0800
+
+    DTS:DTS2014032102946
+    Description:40M CA LPF
+    Feature or Bugfix:
+    
+    Change-Id: I1b15cbe927f479022b2250002b08047b361dbd9a
+
+[33mcommit 99c5238b83e3073db05d7a0cf52ed9a2dbe6e7d9[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Sat Mar 22 09:36:46 2014 +0800
+
+    DTS:DTS2014032105782
+    Description:add notch bypass
+    Feature or Bugfix:
+    
+    Change-Id: I34c293a1ec203efbb05117e6684128622b021b2c
+
+[33mcommit 3a4638277cee953082490d2c7a4d4715228d9773[m
+Author: z00227143 <z00227143@notesmail.huawei.com>
+Date:   Fri Mar 21 15:01:22 2014 +0800
+
+    DTS:2014022202138
+    Description:hifi
+    Feature or Bugfix:
+    Change-Id: If02f8df5bf4cd96e0622c0ae9a29a564f6c22a14
+
+[33mcommit a5c1a43b2c0c1c0aa99f6a80d3852a42b5e2090c[m
+Author: l00168886 <l00168886@notesmail.huawei.com>
+Date:   Fri Mar 21 12:00:56 2014 +0800
+
+    DTS:2014032001370
+    Description:delay nv + cpufreq bug
+    Feature or Bugfix:
+    
+    Change-Id: I0cc5be8393fe421ecfc0d055770d335e0684c291
+
+[33mcommit d863c0f6b35cd6cda73029e4736d95c4c55cf989[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Tue Mar 18 17:45:41 2014 +0800
+
+    DTS:DTS2014031805621
+    Description:change dfs ctrl nv for v7r2
+    Feature or Bugfix:
+    
+    Change-Id: I98b0fec53db7c6752beefeb63895408f0b810909
+
+[33mcommit f687f544d2d78a701626f2e6053a7e4e72ee3647[m
+Author: z00212940 <z00212940@notesmail.huawei.com>
+Date:   Tue Mar 18 04:40:00 2014 +0800
+
+    DTS:DTS2014031402175
+    Description:update socp read data done
+    Feature or Bugfix:
+    
+    Change-Id: Ib4048bdecb9a46545cd17a16404c5a796e90a9fd
+
+[33mcommit 6444e9f6d56238b14e6d0002b98f9bf153f97f79[m
+Author: s00175552 <s00175552@notesmail.huawei.com>
+Date:   Sat Mar 15 13:55:51 2014 +0800
+
+    DTS:dts2014031405430
+    Description:mipi interface add
+    Feature or Bugfix:
+    
+    Change-Id: I556c3729811e42a7d1765c1de5341c670082afa1
+
+[33mcommit 62b85fadee3b470df30383c9c29843e3a3c30477[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Fri Mar 14 12:27:59 2014 +0800
+
+    DTS:DTS2014031301400
+    Description:TDS HICH
+    Feature or Bugfix:
+    Change-Id: I7394f3ea253db48128aaf9cdaa84fcd4cbc70692
+
+[33mcommit 061e9345bf94662c2c751b79ea2b59019f5f87fb[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Thu Mar 13 10:27:04 2014 +0800
+
+    DTS:DTS2014031301400
+    Description:TDS HIGHCH
+    Feature or Bugfix:
+    Change-Id: I21d85937eefcdb9903ea717fe739f3e94160e2d0
+
+[33mcommit 5ddcc349c20266ae2ce3ce867da980d881d82e0e[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Mon Mar 10 10:13:47 2014 +0800
+
+    DTS:DTS2014030604154
+    Description:close vote when light sleep
+    Feature or Bugfix:
+    Change-Id: I4b55b2116f66c4bfd2ad204ffc44e8e8bf828de1
+
+[33mcommit ae8f454f88b6bdb52e7f24c4722d21828da6db80[m
+Author: z00212940 <z00212940@notesmail.huawei.com>
+Date:   Sun Mar 9 00:07:44 2014 +0800
+
+    DTS:DTS2014022604177
+    Description:update d132 nv stru name
+    Feature or Bugfix:
+    
+    Change-Id: I59e8bb999c29b72101d7f925528d398e8551952c
+
+[33mcommit bba33b35088f6564bf6b8341efbc2f26152140d8[m
+Author: z00100616 <z00100616@notesmail.huawei.com>
+Date:   Sat Mar 8 00:07:01 2014 +0800
+
+    DTS:DTS2014030705166
+    Description:mod NV flag
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I7a065959613146be5219a578ef2064a51a9df655
+
+[33mcommit e939144b63f42f2315ca80090a20c45ead2c3c57[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Fri Mar 7 14:22:35 2014 +0800
+
+    DTS:DTS2014030305044
+    Description:update for afc scc limit value
+    Feature or Bugfix:
+    
+    Change-Id: I622ba0459604dd2b1379b7df7010d1c06c049611
+
+[33mcommit b7faa24cd4ab4e718539c0f3aaf4fd8947aea93f[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Thu Mar 6 16:31:11 2014 +0800
+
+    DTS:2014022503628
+    Description:move nv en_NV_Item_ProductTypeForLogDirectory to COMM_NV_Common_COnfig.xml
+    Feature or Bugfix:
+    
+    Change-Id: I983f3c827c74a764d4ed6e43d5777650873e94d6
+
+[33mcommit 95f9503ed1b14ce34c4e87a1c7f92ee462110e3e[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Thu Mar 6 15:12:57 2014 +0800
+
+    DTS:DTS2014021802238
+    Description:chang dfs downlimit to 60
+    Feature or Bugfix:
+    
+    Change-Id: I277274c02e378b4027d179420c564c7447eb3704
+
+[33mcommit 723fc352a76dac5bd43beaf678078e9e6a3a1150[m
+Author: l00168886 <l00168886@notesmail.huawei.com>
+Date:   Thu Mar 6 11:28:29 2014 +0800
+
+    DTS:
+    Description:wdt nv enable
+    Feature or Bugfix:
+    
+    Change-Id: Id133c64d9c58cf82075867fe721a35eb2c619e17
+
+[33mcommit 97e420c3e831443c787cb5f1f5c516c049d79d3c[m
+Author: y00228784 <y00228784@notesmail.huawei.com>
+Date:   Thu Mar 6 00:43:06 2014 +0800
+
+    DTS:DTS2014022604428
+    Description:drv nv xml modify
+    Feature or Bugfix:
+    
+    Change-Id: Icac9ce086b061c6380b1361a8e7249dfdcb8f4be
+
+[33mcommit 54ddcba7717683ffbb09039fb62c349dc9d8b75e[m
+Merge: b27a471 8c45bc0
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Tue Mar 4 17:09:23 2014 +0800
+
+    Merge "DTS:2014022602865 Description:nv support r9 Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 8c45bc0a30135d2ed1656e325e5b3f65b2f25298[m
+Author: c00253308 <c00253308@notesmail.huawei.com>
+Date:   Tue Mar 4 14:47:19 2014 +0800
+
+    DTS:2014022602865
+    Description:nv support r9
+    Feature or Bugfix:
+    
+    Change-Id: Ibac30ed07fa526d21efba18a42be5ff40b52d7fd
+
+[33mcommit b27a4719299bd2b19d640636fb01eb263692ec02[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Tue Mar 4 13:39:29 2014 +0800
+
+    DTS:DTS2014030101906
+    Description:diag for modem reset
+    Feature or Bugfix:
+    Change-Id: I49d450aa635d3876d853e28d3803fdc41b725544
+
+[33mcommit 53a86f00adae67572575a3daf8dcd5f2edb1d9e3[m
+Merge: f1220fb 438b595
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Tue Mar 4 13:51:20 2014 +0800
+
+    Merge "DTS:dts2014022002210 Description:Fix CMU noise available flag issue Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 438b5956fdce7d9eedb3dd83301568db06cacf9d[m
+Author: s00175552 <s00175552@notesmail.huawei.com>
+Date:   Tue Mar 4 11:57:32 2014 +0800
+
+    DTS:dts2014022002210
+    Description:Fix CMU noise available flag issue
+    Feature or Bugfix:
+    
+    Change-Id: I903fde6f53a587cbc7019f14bdddaf04837f61ea
+
+[33mcommit f1220fb77d640aa9efcb51992c1be6af6ebcec67[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Mon Mar 3 17:06:51 2014 +0800
+
+    DTS:2014022503628
+    Description:add nv en_NV_Item_ProductTypeForLogDirectory
+    Feature or Bugfix:
+    
+    Change-Id: I0e6ed20c68319691eac14985a6531b5134120974
+
+[33mcommit db69b6e21e542419bc39e0835c43bb2a4d275cdb[m
+Author: c00253308 <c00253308@notesmail.huawei.com>
+Date:   Mon Mar 3 19:45:32 2014 +0800
+
+    DTS:2014030307370
+    Description:Modify NV Support Cdrx
+    Feature or Bugfix:
+    
+    Change-Id: Ibe74cdbe1a95cc3712b84eee1ac6f2c954c32079
+
+[33mcommit 1a2fa0ea1ffacdda9a4c7792d29601dede5cf9bd[m
+Author: w00209181 <w00209181@notesmail.huawei.com>
+Date:   Fri Feb 28 01:17:31 2014 +0800
+
+    DTS:DTS2014022007068
+    Description:VOLTE
+    Feature or Bugfix:
+    
+    Change-Id: I4e149d8b6c06a7250aa1fe749742146b506958b4
+
+[33mcommit 6f29a337fede0de07dedb1abbbd01ae7170ba67f[m
+Author: z00212940 <z00212940@notesmail.huawei.com>
+Date:   Thu Feb 27 20:47:58 2014 +0800
+
+    DTS:DTS2014022604177
+    Description:upload socp on demand feature
+    Feature or Bugfix:
+    Change-Id: If16f05b970e9f44b67d7f9281b4ca175d26a90ff
+
+[33mcommit f7af450aec4e65e805cb8b6418ad76bcb76b511d[m
+Author: l00225826 <l00225826@notesmail.huawei.com>
+Date:   Wed Feb 26 10:12:35 2014 +0800
+
+    DTS:2014022508971
+    Description:modem pintrl
+    Feature or Bugfix:
+    
+    Change-Id: Iccba9e1fbf45aa8ab3366f6474f1923a4e9ff899
+
+[33mcommit 135b914abb07b62bd1a2a2a7194db40a06b7ae6d[m
+Author: g00253825 <g00253825@notesmail.huawei.com>
+Date:   Tue Feb 25 13:01:21 2014 +0800
+
+    DTS:DTS2014022005346
+    Description:hi6361s txiq feedback path selection
+    Feature or Bugfix:
+    Change-Id: I59888e6d91f55909b7ace7a183633d3ce2895c18
+
+[33mcommit 1c0f7873629857c0157b63c707edbf812f7d81cf[m
+Merge: 7eaadb3 6f4d29c
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Mon Feb 24 17:51:14 2014 +0800
+
+    Merge "DTS:20140214070447 Description:modify r10 release for LNAS Feature or Bugfix:l00132387" into br_balongv7r2_bugfix
+
+[33mcommit 6f4d29c4c08c7c8576dc90762ab6141ff5c56892[m
+Author: l00132387 <l00132387@notesmail.huawei.com>
+Date:   Mon Feb 24 22:47:55 2014 +0800
+
+    DTS:20140214070447
+    Description:modify r10 release for LNAS
+    Feature or Bugfix:l00132387
+    
+    Change-Id: I2052bde0abd3a44717512476293c9dcac8914de9
+
+[33mcommit 7eaadb33ceb480a58a94e9b79108dc9bb4e73ca3[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Sat Feb 22 18:33:38 2014 +0800
+
+    DTS:DTS2014022110602
+    Description:open modem wdt and clear irq request
+    Feature or Bugfix:
+    
+    Change-Id: I667acf32f00a41cc54d95efbda73fc2dd4f7384b
+
+[33mcommit 2c8a51a65a8c205d3307d5e7e22193bacee78e89[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Tue Feb 18 14:28:43 2014 +0800
+
+    DTS:DTS2014021802238
+    Description:k3v3 cpufreq
+    Feature or Bugfix:
+    
+    Change-Id: I166ec3fccfee7315653e7fddf9acd471536d5e2f
+
+[33mcommit 3ce50dcea8365a085c68faf760d9d8af08e442c7[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Tue Feb 18 19:56:16 2014 +0800
+
+    DTS:DTS2014012408124
+    Description:add 6361s init table in udp xml
+    Feature or Bugfix:
+    
+    Change-Id: I22904afa304a54041fd02aec1ee0975e3b1fd900
+
+[33mcommit 776d6ea99160355a757d43513d90cb8f7008edcb[m
+Author: z00165872 <z00165872@notesmail.huawei.com>
+Date:   Sat Feb 15 20:30:02 2014 +0800
+
+    DTS:DTS2014021506391
+    Description:tds drx merge
+    Feature or Bugfix:bugfix
+    Change-Id: Ia6f747a3d80544fe725ccd8458f8c4f3e1f42444
+
+[33mcommit c45c66951f18a330f0cc6b93e47c82727a23cf30[m
+Author: x00195453 <x00195453@notesmail.huawei.com>
+Date:   Sat Feb 15 15:52:09 2014 +0800
+
+    DTS:DTS2013121303052
+    Description:fdd ca t8ul modify
+    Feature or Bugfix:
+    
+    Change-Id: I724b691a450db9b8f6d8b126a53d3067aa0fb8dd
+
+[33mcommit e7bd763eb40b163472a87b5e7dcef57611fc7e62[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Fri Feb 14 12:58:02 2014 +0800
+
+    DTS:DTS2014021402791
+    Description:agc table
+    Feature or Bugfix:
+    
+    Change-Id: I40dbef91055dcb39eb177e14e108693ae06d4475
+
+[33mcommit 6f5b4891c9ae8f7aeb3eb4948b6e4ae9c7d13a1e[m
+Merge: b20d45e 07e7209
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Fri Feb 14 10:29:00 2014 +0800
+
+    Merge "DTS:DTS201404120204832 Description:modify tl/drv/k3v3_diff.xml Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 07e7209056cdb9a16583902b6a47e74e7ea3701d[m
+Author: y00193980 <y00193980@notesmail.huawei.com>
+Date:   Thu Feb 13 20:15:35 2014 +0800
+
+    DTS:DTS201404120204832
+    Description:modify tl/drv/k3v3_diff.xml
+    Feature or Bugfix:
+    
+    Change-Id: I2f239289e89cd4962561d46288555d3b0c622c04
+
+[33mcommit b20d45e3cd6fbe8fdea804e8ece712476a5c17e7[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Thu Feb 13 19:02:58 2014 +0800
+
+    DTS:DTS201412703288
+    Description:sync v9r1 forbid lte fdd
+    Feature or Bugfix:Feature
+    Change-Id: Ia6674cbef779c1a41fc82cea0f317a4343847ce1
+
+[33mcommit 2e7fd00df01d60e69d473fee6c0fcc11ed8ed6e3[m
+Merge: f03f8b3 3ce1521
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Tue Feb 11 19:41:44 2014 +0800
+
+    Merge "DTS:DTS2014012302486 Description:update for inter band ca scc mipi for multimode meas Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 3ce152194e5e595fd3e0afad9feef23a445eed7b[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Tue Feb 11 14:42:22 2014 +0800
+
+    DTS:DTS2014012302486
+    Description:update for inter band ca scc mipi for multimode meas
+    Feature or Bugfix:
+    
+    Change-Id: I9b82387dbd9d987d0b23c80d7caa30d8062bc672
+
+[33mcommit f03f8b311bfe1aafe1ab1da252ccb4a2d0f256d7[m
+Author: w00170956 <w00170956@notesmail.huawei.com>
+Date:   Tue Feb 11 10:57:21 2014 +0800
+
+    DTS:2014012407994
+    Description:add hi6361s RF board support
+    Feature or Bugfix:
+    
+    Change-Id: I5334830423cc930ef80321521c6587c97345b7cb
+
+[33mcommit 576c61e487dec1d6c0dcaa751c1c140b9a68bacf[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Mon Feb 10 15:32:53 2014 +0800
+
+    DTS:DTS2014012402032
+    Description:1.close led module on UDP platform;2.modified NV of LED_Control
+    Feature or Bugfix:
+    
+    Change-Id: Ia893a73943aef9085e0ad7996bf2452b82ca3836
+
+[33mcommit 2a1ad8ef61372f36f168f104d3d8f4db90e7090d[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Fri Feb 7 16:10:20 2014 +0800
+
+    DTS:DTS2013110501948
+    Description:add nv for halt and fix rtc
+    Feature or Bugfix:
+    Change-Id: Id2de7b2d9c1bb3f94676b0c6584725b9edbd2553
+
+[33mcommit 9bb5dbeec852e7275bc5b726328d635bb5467117[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Tue Jan 28 19:07:51 2014 +0800
+
+    DTS:dts2014011505624
+    Description:tds sync v9r1 by manul
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I36b168229782acd0aebef8c5a3b52b3461228595
+
+[33mcommit 691ef1015349518c6a26954ac3f25025e6d4160d[m
+Author: z00212940 <z00212940@notesmail.huawei.com>
+Date:   Mon Jan 27 03:57:52 2014 +0800
+
+    DTS:DTS2014012107687
+    Description:update axi monitor for addr only
+    Feature or Bugfix:
+    Change-Id: I9f1586c3d992d3a41c6becdcb4db401794672ef0
+
+[33mcommit 7e81c8f13cd8b9425a506ace13471a4cecbc69a9[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Sun Jan 26 11:11:03 2014 +0800
+
+    DTS:DTS2014011606584
+    Description:rfu2 nv
+    Feature or Bugfix:
+    
+    Change-Id: I0575bbeda293e5fcff22a7caa7ead96005467438
+
+[33mcommit babddb0b3f92d096ea8e4879c34425e8bfa844fc[m
+Author: d00209188 <d00209188@notesmail.huawei.com>
+Date:   Fri Jan 24 20:09:05 2014 +0800
+
+    DTS:2014011413325
+    Description:use same change ID
+    Feature or Bugfix:
+    Change-Id: Iacc3787fce2a58288b09277e6578dad6d199dfe0
+
+[33mcommit 0853323849ccd2cab26cf557b1b5d80b59761b07[m
+Author: k00228722 <k00228722@notesmail.huawei.com>
+Date:   Fri Jan 24 04:29:34 2014 +0800
+
+    DTS:DTS2014011804992
+    Description:v7r2 sync v9r1
+    Feature or Bugfix:bugfix
+    Change-Id: Ia95e910edddbcb7b17da439d5d5530e0f89ab53a
+
+[33mcommit a4dcddd3864b032c1532296e921caf67cb4658cd[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Thu Jan 23 15:18:01 2014 +0800
+
+    DTS:DTS2014011804109
+    Description:V7R2 tds sync v9r1 b500
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I6f33c35ccd5fce347812a6772a8c6c8a05700239
+
+[33mcommit 6b97aa5734542237aba6c2abc889afbcabf3e9b1[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Tue Jan 21 14:55:51 2014 +0800
+
+    DTS:DTS2014011805615
+    Description:agc table
+    Feature or Bugfix:
+    
+    Change-Id: Ia9588f21a378b62e6da46a3c6b8a1e1b254dc7f8
+
+[33mcommit 2564117b4e38e5fb0929f9769a78309c97b80ac6[m
+Author: k00228722 <k00228722@notesmail.huawei.com>
+Date:   Mon Jan 20 22:54:48 2014 +0800
+
+    DTS:DTS2014011804992
+    Description:v7r2 sync v9r1
+    Feature or Bugfix:bugfix
+    Change-Id: I7d9ecae2791c5a5a3eb0591394f9bd263aa2456a
+
+[33mcommit 3b53c9ee507540ceca217e27e5f0db0160557577[m
+Author: z00212940 <z00212940@notesmail.huawei.com>
+Date:   Wed Jan 15 20:03:30 2014 +0800
+
+    DTS:DTS2014011101599
+    Description:update nv 0xd111 default value for trace enable
+    Feature or Bugfix:
+    
+    Change-Id: I4a57b00fc20963ca929b719893e84094236165ff
+
+[33mcommit 126b12a7e4be5e2792bc4ccce185f2d0f0c27898[m
+Author: w00228729 <w00228729@notesmail.huawei.com>
+Date:   Tue Jan 14 12:07:40 2014 +0800
+
+    DTS:DTS2014011306805
+    Description:change cshell for k3
+    Feature or Bugfix:
+    
+    Change-Id: Ia6d870801ac8aab31808e295a69212ebbbe6ac34
+
+[33mcommit 6bdcc32ad04b71032151005a0c0db52c85b5259e[m
+Merge: 740ed1f 5a1295a
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Mon Jan 13 12:53:00 2014 +0800
+
+    Merge "DTS:DTS2014011007349 Description:k3v3 wdt develop Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 740ed1f211a39dd09afccfb0a8005de1fc1f5d05[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Mon Jan 13 09:39:00 2014 +0800
+
+    DTS:DTS2014011300087
+    Description:nv xiugai
+    Feature or Bugfix:
+    
+    Change-Id: I63d3bf81eed09769dddae82bc1bb90774d4d10b2
+
+[33mcommit 5a1295ac3b0d50b0c9e953f31b6c19d832176fd9[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Fri Jan 10 17:17:20 2014 +0800
+
+    DTS:DTS2014011007349
+    Description:k3v3 wdt develop
+    Feature or Bugfix:
+    
+    Change-Id: Ie89be63208fc22ff5bfd8ec13805390a4f15c1ca
+
+[33mcommit d8bd8c1b67dff15721a54017416345cbe2996965[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Fri Jan 10 13:13:57 2014 +0800
+
+    DTS:DTS2014011003442
+    Description:band20,40 NV
+    Feature or Bugfix:
+    Change-Id: I3c649afc1398df11cbde149d9af076b3e0ee2962
+
+[33mcommit 0ca76bc2d2ea5155c95fbae5112a84b43e84dfc8[m
+Author: l00227192 <l00227192@notesmail.huawei.com>
+Date:   Thu Jan 9 11:40:49 2014 +0800
+
+    DTS:DTS2014010901113
+    Description:1.module support NV modify; 2.add online partition to early mount
+    Feature or Bugfix:
+    
+    Change-Id: I5c2927b7adc1feccefa7b461b074eef949c6085b
+
+[33mcommit fc02c4e99a7aec46826af4d1879655d5f0aec8a9[m
+Merge: b79edcf dd73d44
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Wed Jan 8 17:31:38 2014 +0800
+
+    Merge "DTS:2013092908105 Description:add rfu2 d01b nv Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit b79edcf572a57d7f946168ba736a842a5d2f474c[m
+Author: x00221564 <x00221564@notesmail.huawei.com>
+Date:   Wed Jan 8 16:13:42 2014 +0800
+
+    DTS:2014010703321
+    Description:close chipset bus error
+    Feature or Bugfix:
+    
+    Change-Id: I423f02177957412d27ef7e6561aa2c9e0378ece0
+
+[33mcommit 7764b84d75c17932d4cc4b7e42b3914995d171e9[m
+Author: s00193151 <s00193151@notesmail.huawei.com>
+Date:   Wed Jan 8 22:46:31 2014 +0800
+
+    DTS:2014010709265
+    Description:NVIM default value change D275, No USIM start don't delete security context
+    Feature or Bugfix:s00193151
+    
+    Change-Id: I03a01bd2c0cd1e298a2cca40ab486d43eb588c14
+
+[33mcommit ae8ef1bd7b858b0988955b515e82f1a6d44e1fe0[m
+Merge: 6f1657e d280bfd
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Wed Jan 8 12:52:04 2014 +0800
+
+    Merge "DTS:2014010200800 Description:pa open time mod Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit dd73d44d7ba8fa0fd78fcd81a876a67c0b22dfcf[m
+Author: z00228752 <z00228752@notesmail.huawei.com>
+Date:   Tue Jan 7 20:31:01 2014 +0800
+
+    DTS:2013092908105
+    Description:add rfu2 d01b nv
+    Feature or Bugfix:
+    
+    Change-Id: I96af9f4d35d022432c91403da263553ed91a7e5b
+
+[33mcommit d280bfda7e044b766a1540f3172d19873e5db036[m
+Author: y00172000 <y00172000@notesmail.huawei.com>
+Date:   Tue Jan 7 17:03:32 2014 +0800
+
+    DTS:2014010200800
+    Description:pa open time mod
+    Feature or Bugfix:
+    
+    Change-Id: I79d267eb591325301b80332772b3d68869b50f2a
+
+[33mcommit 6f1657e5703c6777fa2f0cb8d456c43970e61eab[m
+Author: l00225826 <l00225826@notesmail.huawei.com>
+Date:   Tue Jan 7 10:39:40 2014 +0800
+
+    DTS:2013121606183
+    Description:tsensor temperature and efuse
+    Feature or Bugfix:
+    
+    Change-Id: Id5165587db7c7c2292f2d84940278ff431d4b973
+
+[33mcommit 3b0ae8f68fd987f55ddf8c15e9bbf61279fa150f[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Mon Jan 6 16:52:31 2014 +0800
+
+    DTS:201401041670
+    Description:TDS drx nv default close change
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I1369f477ff8cdf49cb2ce0ad2e3f3d4807beafaa
+
+[33mcommit d283830d4726c6a1183eb48e1b23bfe365c74d59[m
+Author: b00113022 <b00113022@notesmail.huawei.com>
+Date:   Thu Jan 2 11:22:09 2014 +0800
+
+    DTS:DTS2013100906082
+    Description:nv change
+    Feature or Bugfix:bugfix
+    
+    Change-Id: I20d7dcbf8fc4e4ab71d3198394d0eff00e18d443
+
+[33mcommit 37087ffa6574b73cb06579a508e983b983ba6e71[m
+Merge: 4f13820 8c26d96
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Mon Dec 30 16:35:42 2013 +0800
+
+    Merge "DTS:DTS2013121907526 Description:modify intra band ca TA Feature or Bugfix: Change-Id: Ieb909a1acc115d6ed246a3d9635c6008c78499d5" into br_balongv7r2_bugfix
+
+[33mcommit 8c26d9625c10b5fa01a544a2c049fdb036f4e589[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Mon Dec 30 15:43:49 2013 +0800
+
+    DTS:DTS2013121907526
+    Description:modify intra band ca TA
+    Feature or Bugfix:
+    Change-Id: Ieb909a1acc115d6ed246a3d9635c6008c78499d5
+
+[33mcommit 4f138203f611c485e53f71fb51bb99b286beaffd[m
+Author: l00225826 <l00225826@notesmail.huawei.com>
+Date:   Sat Dec 28 20:45:34 2013 +0800
+
+    DTS:2013121601356
+    Description:temperature protect nv...
+    Feature or Bugfix:
+    
+    Change-Id: I2664ca761736d1feb1396f0321fb892d24dbcfc7
+
+[33mcommit 15278df4d8851adf9efbc22e584ebde48c44250e[m
+Merge: 30c95b3 0ae620f
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Thu Dec 26 22:43:12 2013 +0800
+
+    Merge "DTS:DTS2013122606212 Description:ET NV Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 0ae620faf3716c34baa8b2723e7bd6c019340f76[m
+Author: m00193381 <m00193381@notesmail.huawei.com>
+Date:   Fri Dec 27 00:02:29 2013 +0800
+
+    DTS:DTS2013122606212
+    Description:ET NV
+    Feature or Bugfix:
+    
+    Change-Id: I847cc05f02bb5c8dab31093559e5746d9b0c5880
+
+[33mcommit 30c95b3825f514478c76e695cd6b195e20469c18[m
+Author: x00221564 <x00221564@notesmail.huawei.com>
+Date:   Thu Dec 26 20:20:35 2013 +0800
+
+    DTS:xujingcui
+    Description:MNTN for bus error
+    Feature or Bugfix:
+    
+    Change-Id: I8fb4ae068bf4349d8603ea14b55bb5e7234f5411
+
+[33mcommit 82d534a4a395f1fb7be4dea0cf82edfdcd16fbc1[m
+Merge: c598780 18fc2f4
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Mon Dec 23 19:21:42 2013 +0800
+
+    Merge "DTS:DTS2013110501948 Description:change tcxo time to 2000 Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit c5987806efc8b1f1b40e6d347fd8f44e35d3ad33[m
+Author: c64416 <c64416@notesmail.huawei.com>
+Date:   Tue Dec 24 01:40:59 2013 +0800
+
+    DTS:DTS2013122102073
+    Description:for dsda into bugfix
+    Feature or Bugfix:
+    Change-Id: I54be5d3b1e96aa085e854af996d74c7d927c0507
+
+[33mcommit 18fc2f47110c641cc4e4c5eaef1e0f7ec882bd80[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Mon Dec 23 17:25:01 2013 +0800
+
+    DTS:DTS2013110501948
+    Description:change tcxo time to 2000
+    Feature or Bugfix:
+    
+    Change-Id: I77c7183eb1138f48e94c7c5e7ed831b1f713c2b7
+
+[33mcommit 6bfee97faaf923be964c32492e7b6a803d2b2175[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Mon Dec 23 09:31:50 2013 +0800
+
+    DTS:DTS2013121005650
+    Description:B3,28 NV
+    Feature or Bugfix:
+    
+    	modified:   hi6930/phy/NV_LPHY_K3V3_Product_Diff.xml
+    	modified:   hi6930/phy/NV_LPHY_UDP_Product_Diff.xml
+    
+    Change-Id: I2a6b245f64e450dbad7aafc2db64237776be0697
+
+[33mcommit 234ee413731aef292562864b040fd3e5ce948c1d[m
+Author: w00170956 <w00170956@notesmail.huawei.com>
+Date:   Sat Dec 21 17:02:22 2013 +0800
+
+    DTS:
+    Description:fix k3v3 compile errors
+    Feature or Bugfix:
+    
+    Change-Id: Ia0356a936e5b09832389a7913d48f182dafe6b0f
+
+[33mcommit 00afae2a89dfc95466cda26bcd4d17b33ace7f28[m
+Author: w00170956 <w00170956@notesmail.huawei.com>
+Date:   Sat Dec 21 10:58:51 2013 +0800
+
+    DTS:
+    Description:fix k3v3 compile errors
+    Feature or Bugfix:
+    
+    Change-Id: Ib386efadcbbd82e74a49c24c925a33cdf972e8ee
+
+[33mcommit bc370309f5e22ae6d0895e845be120499b20b133[m
+Merge: 9b9b825 8fadd40
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Fri Dec 20 18:54:48 2013 +0800
+
+    Merge "DTS:dts2013111808661 Description:Merge K3V3 change Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 8fadd409d68f67c7ef12eb3566e60440cedfd922[m
+Author: s00175552 <s00175552@notesmail.huawei.com>
+Date:   Fri Dec 20 18:05:54 2013 +0800
+
+    DTS:dts2013111808661
+    Description:Merge K3V3 change
+    Feature or Bugfix:
+    
+    Change-Id: I54dcd126a505f5517d9b59a51552e80529253344
+
+[33mcommit 9b9b8251dc01bda89fe8ea232eb20558992a8286[m
+Author: l00225826 <l00225826@notesmail.huawei.com>
+Date:   Thu Dec 19 11:49:33 2013 +0800
+
+    DTS:2013121601356
+    Description:temperature
+    Feature or Bugfix:
+    
+    Change-Id: I1e3c0e4f5664001b27ba4b9a862f1039211dda3d
+
+[33mcommit f7d640c6fe23093eba789651554c7e3446183e96[m
+Merge: 4128edd f329216
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Wed Dec 18 17:32:41 2013 +0800
+
+    Merge "DTS:DTS2013110501948 Description:review Feature or Bugfix: Change-Id: I7eab1f6624513324652245aea0de75a38dfb3b59" into br_balongv7r2_bugfix
+
+[33mcommit 4128eddc7149e7ef4bcace64dce4da1d64e9ba69[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Thu Dec 19 00:21:57 2013 +0800
+
+    DTS:dts2013121108561
+    Description:k3v3 nv
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: Id122b03cfbc3e8e69323df3b27ba656727938747
+
+[33mcommit f32921631a2cc1583909ccc0e5d2f3417fddc184[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Wed Dec 18 15:35:06 2013 +0800
+
+    DTS:DTS2013110501948
+    Description:review
+    Feature or Bugfix:
+    Change-Id: I7eab1f6624513324652245aea0de75a38dfb3b59
+
+[33mcommit 5c51b6bc3e42f76ec906d2937feaf269d15e1ab5[m
+Author: x00221564 <x00221564@notesmail.huawei.com>
+Date:   Mon Dec 16 10:31:46 2013 +0800
+
+    DTS:2013110401088
+    Description:mntn
+    Feature or Bugfix:
+    Change-Id: I9a2f5f638c22040ec3537bae992302181c7fc4af
+
+[33mcommit c4918661818a15c98514dc3bf00bb9b0f1f9f045[m
+Author: x00221564 <x00221564@notesmail.huawei.com>
+Date:   Fri Dec 13 13:26:59 2013 +0800
+
+    DTS:2013110401088
+    Description:mntn
+    Feature or Bugfix:
+    Change-Id: I146947a9e92bdbe94859d0a7c23e2e1c638f0db9
+
+[33mcommit 0dffbfed264004d56e47590cccd33e1f71073b2d[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Fri Dec 13 10:49:56 2013 +0800
+
+    DTS:DTS2013120904514
+    Description:V7R2 v9r1 tds dsp code sync
+    Feature or Bugfix:
+    
+    Change-Id: Ia87f4ab3b435256212aaf53f9e88b6ce4be55d8b
+
+[33mcommit 7cdc1e504f86530e78a5cc76c50921f8dd0a2e60[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Thu Dec 12 11:44:39 2013 +0800
+
+    DTS:DTS2013121000983
+    Description:telstra band28 nv
+    Feature or Bugfix:
+    
+    	modified:   hi6930/phy/LDSP_NV_Common_Config_TL.xml
+    
+    Change-Id: Ib2ef989ad20372a05d58eb7f59dad16caf5fce83
+
+[33mcommit e7dcf8e57bc1793f9dcfbbe96123be40ea8405ff[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Wed Dec 11 14:40:01 2013 +0800
+
+    DTS:DTS2013121004876
+    Description:open wdt
+    Feature or Bugfix:
+    
+    Change-Id: I94ed1190aa7f2b432eb58345464b5f7408978702
+
+[33mcommit b28d042f24ca69000d06261dec1a0fec33863771[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Tue Dec 10 15:43:31 2013 +0800
+
+    DTS:DTS2013120904514
+    Description:
+    Feature or Bugfix:
+    
+    Change-Id: I2552144def1990bfa0908f019709f7164dc12986
+
+[33mcommit 270d90897660b6b413c6390cd7d59899ac490350[m
+Merge: fc48cad ea5405d
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Tue Dec 10 09:38:58 2013 +0800
+
+    Merge "DTS:dts2013111808661 Description:change the TDS channel sel nv Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit ea5405d141ac5bc42f1eaea94b7702176b16744c[m
+Author: s00175552 <s00175552@notesmail.huawei.com>
+Date:   Mon Dec 9 18:28:48 2013 +0800
+
+    DTS:dts2013111808661
+    Description:change the TDS channel sel nv
+    Feature or Bugfix:
+    
+    Change-Id: I4bf8d3cf54a3a882234ecc6a8bfc3510edd22827
+
+[33mcommit fc48cadc9ec38f7aa6e266ed43796097c803eb68[m
+Merge: e152ed1 c8512d8
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Mon Dec 9 18:03:45 2013 +0800
+
+    Merge "DTS:DTS2013120604781 Description:DRX NV Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit c8512d8ae14937db828908664231c1a83da663a2[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Mon Dec 9 17:17:08 2013 +0800
+
+    DTS:DTS2013120604781
+    Description:DRX NV
+    Feature or Bugfix:
+    
+    Change-Id: I03d5a6f7a06a19633d129ff670d02df0abb96f37
+
+[33mcommit e152ed172ffc7f478830c38e84f4b7e688ef0cb1[m
+Author: z00213447 <z00213447@notesmail.huawei.com>
+Date:   Mon Dec 9 15:09:27 2013 +0800
+
+    DTS:2013120904398
+    Description: tds  max  power  is 3dbm,  nv from  v9 to v7 error.
+    Feature or Bugfix:
+    
+    Change-Id: I03670709e69053e7c47b9a5c6be040909fa3eec0
+
+[33mcommit 034c772e36cdb31ecf669544c252fe409493591a[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Fri Dec 6 12:00:36 2013 +0800
+
+    DTS:DTS2013102906645
+    Description:add telstra ee e5 and k3v3 rf borad xml
+    Feature or Bugfix:
+    
+    Change-Id: I1d7fbc6b4c51b8bf3b5cfa33550af4827b2170a1
+
+[33mcommit d666579b1aa50d80573ba3651a0b5a9e02bee5b9[m
+Author: z00100616 <z00100616@notesmail.huawei.com>
+Date:   Fri Dec 6 19:30:31 2013 +0800
+
+    DTS:2013092703078
+    Description:修改Band41频点范围
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: Iac2b82fae96769454cf195a1962043a53ba308c8
+
+[33mcommit 324d2f4f251d977601fc2039d68d4c516cfbe1eb[m
+Author: z00199916 <z00199916@notesmail.huawei.com>
+Date:   Thu Dec 5 18:06:29 2013 +0800
+
+    DTS:
+    Description:sync k3v3 prepare to v7r2.
+    Feature or Bugfix:
+    
+    Change-Id: I4b819b44eaa4ebeb7276bc2fe2ee808f4b8d12e0
+
+[33mcommit 13e44b09f504b29f78a86f00931861c6b4a8f0f6[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Thu Dec 5 20:05:33 2013 +0800
+
+    DTS:DTS2013112603657
+    Description:ADD TELSTRA XML
+    Feature or Bugfix:
+    
+    Change-Id: I03640cd04c973a53c01f041e92e741fcff91513f
+
+[33mcommit 9ccb99ebe512aa8144c06a246a3f49c532042e80[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Thu Dec 5 16:11:45 2013 +0800
+
+    DTS:DTS2013102906645
+    Description:circulative ca upload
+    Feature or Bugfix:
+    
+    Change-Id: I1bb32c4102c438435745b597aeda95a57126dccd
+
+[33mcommit c45ba200a4b94df87c811dbe827f5363560cbc2c[m
+Merge: eda001d aa5f8e7
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Thu Dec 5 13:36:01 2013 +0800
+
+    Merge "DTS:dts2013111808661 Description:Merge K3V3 change Feature or Bugfix: Change-Id: Ifd738d443d7912c467f63304d42a406c8dbf0354" into br_balongv7r2_bugfix
+
+[33mcommit aa5f8e78e0937ab780fbf913bddbf074d75aa519[m
+Author: s00175552 <s00175552@notesmail.huawei.com>
+Date:   Thu Dec 5 12:22:15 2013 +0800
+
+    DTS:dts2013111808661
+    Description:Merge K3V3 change
+    Feature or Bugfix:
+    Change-Id: Ifd738d443d7912c467f63304d42a406c8dbf0354
+
+[33mcommit eda001d1797756c5d66da01d061ad88cbdbe2728[m
+Author: y00193980 <y00193980@notesmail.huawei.com>
+Date:   Thu Dec 5 11:45:25 2013 +0800
+
+    DTS:DTS2013120400888
+    Description:ModiModify diff.xml, remove ID attribute of PRODUCT_CAT node
+    Feature or Bugfix:
+    
+    Change-Id: I605c99594630106cef28975dfcde662be0e159f2
+
+[33mcommit 6fddffaac9db6d50eecad2fe6ac52100262386d1[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Wed Dec 4 23:21:23 2013 +0800
+
+    DTS:dts2013111204220
+    Description:ca meas gap auto set
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I1654ab9f49809e368b189540e718503112cbc5aa
+
+[33mcommit eedaab0517a70dad201f5a1b726a48f113fee325[m
+Merge: a20bd2d f0ad114
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Sat Nov 30 18:12:37 2013 +0800
+
+    Merge "DTS:2013103103889 Description:目前硬件能力不支持天线选发，需要去掉发射天线选择能力 Feature or Bugfix:Bugfix" into br_balongv7r2_bugfix
+
+[33mcommit f0ad114f8e6d8325f40eb32e61fdc67480159406[m
+Author: z00100616 <z00100616@notesmail.huawei.com>
+Date:   Sat Nov 30 23:08:36 2013 +0800
+
+    DTS:2013103103889
+    Description:目前硬件能力不支持天线选发，需要去掉发射天线选择能力
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: Idc617e6a58032a5c9d4923abb5b3137cc75443f0
+
+[33mcommit a20bd2ddbaeadcbf30319ce8cecd8817a2a64d1c[m
+Author: x00195528 <x00195528@notesmail.huawei.com>
+Date:   Sat Nov 30 15:55:40 2013 +0800
+
+    DTS:2013112810454
+    Description:add nv 0xd10b in HIBV7R2RF7B
+    Feature or Bugfix:
+    
+    Change-Id: I8a9a2150f902de387a58f31cfc406ef151a4eb4e
+
+[33mcommit 147f35ed688e96dea6c0b797d24c75898408cb47[m
+Author: z00228752 <z00228752@notesmail.huawei.com>
+Date:   Sat Nov 23 10:09:56 2013 +0800
+
+    DTS:2013092908105
+    Description:use same chang id
+    Change-Id: I536da8f872290ced166763e1a41ae02393104dee
+    Feature or Bugfix:
+
+[33mcommit 60398c520f591bfb2a18960fb84696d6baa9d8e5[m
+Merge: e562f2a 7572721
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Fri Nov 22 16:06:49 2013 +0800
+
+    Merge "DTS:DTS2013110804379 Description:open wdt Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit e562f2a27c0209c6b7da7d8ae5e96648ad5b837d[m
+Author: z00212940 <z00212940@notesmail.huawei.com>
+Date:   Fri Nov 22 23:06:26 2013 +0800
+
+    DTS:DTS2013110501948
+    Description:update nv 0xd111
+    Feature or Bugfix:
+    
+    Change-Id: I0ba15f815c39a71273905f2ee4772486f50ac4ff
+
+[33mcommit 757272105bda0109fc7c0634e8c92c84c8692097[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Fri Nov 22 11:55:46 2013 +0800
+
+    DTS:DTS2013110804379
+    Description:open wdt
+    Feature or Bugfix:
+    
+    Change-Id: I267b8ed322a3f0cc72a17b274c6f977e62f7eb4c
+
+[33mcommit 77d84b62850b5853ae2bcb5f298b11a58ac4401c[m
+Author: x00195453 <x00195453@notesmail.huawei.com>
+Date:   Fri Nov 22 08:51:02 2013 +0800
+
+    DTS:DTS2013111905988
+    Description:nv modify for dongning
+    Feature or Bugfix:
+    
+    Change-Id: I0da51a3eede6195fa57f7e9331f59868fdccee03
+
+[33mcommit 6a28ef67eff58cb89b835f24c99685d6ddca9af0[m
+Author: w00221810 <w00221810@notesmail.huawei.com>
+Date:   Thu Nov 21 19:31:54 2013 +0800
+
+    DTS:DTS2013110807258
+    Description:fdd t8ul值改为0x28
+    Feature or Bugfix:
+    
+    Change-Id: Id283a5d3e46c19616b351f25529e1490fa011ce0
+
+[33mcommit ba75987f022469179fc4bd887efa5f44bf1d7978[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Wed Nov 20 19:05:51 2013 +0800
+
+    DTS:DTS2013112004146
+    Description:CT Time
+    Feature or Bugfix:
+    Change-Id: I6b9b0293cef3ad587445e6b9e4f0175f55f5f0d6
+
+[33mcommit 3495554d49cddc2f4e7dc75e7720dd2ca7058bba[m
+Author: x00195453 <x00195453@notesmail.huawei.com>
+Date:   Tue Nov 19 14:47:25 2013 +0800
+
+    DTS:DTS20130111302287
+    Description:low power nv open
+    Feature or Bugfix:
+    
+    Change-Id: I02908ea574974c788492367dca03a32d4dbcec9f
+
+[33mcommit 9c9e959c89ec92f6410effaa4ad7741a3b739fae[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Tue Nov 19 12:49:32 2013 +0800
+
+    DTS:DTS2013111902870
+    Description:testra band3,7 mipi linectrl
+    Feature or Bugfix:
+    
+    	modified:   hi6930/phy/NV_LPHY_UDP_Product_Diff.xml
+    
+    Change-Id: I44032d1f55357dc97be8f40073f7323ffc750d80
+
+[33mcommit 3e149c6604f1021776e3b203d8de5c7260f9cc5d[m
+Author: y00172000 <y00172000@notesmail.huawei.com>
+Date:   Tue Nov 19 09:29:03 2013 +0800
+
+    DTS:2013110807158
+    Description:t8ul 修改
+    Feature or Bugfix:
+    Change-Id: Id546d4d6eb66e924813d956170d6fa1dc37d1835
+
+[33mcommit 2325bb1a11b58c7009db5b9d07d98ecea6f0a266[m
+Author: h00164941 <h00164941@notesmail.huawei.com>
+Date:   Mon Nov 18 16:23:51 2013 +0800
+
+    DTS:2013111408459
+    Description:tds code sync from v9r1 to v7r2
+    Feature or Bugfix:
+    
+    Change-Id: Ia89a7b5d9f5c1af47d2b638de4c786dcf78a7159
+
+[33mcommit 475727479a1172b17de0c8b60ac866b43e019c3b[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Mon Nov 18 09:21:31 2013 +0800
+
+    DTS:DTS2013103009722
+    Description:Testra id and nv
+    Feature or Bugfix:
+    
+    	modified:   hi6930/phy/NV_LPHY_UDP_Product_Diff.xml
+    
+    Change-Id: I24563f861121c09a0f44464cc1ce18f7c6752a55
+
+[33mcommit 04ae7af808c5130a1d208dd12dcc665179efc19e[m
+Merge: e09c9fc 331504c
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Thu Nov 14 17:05:40 2013 +0800
+
+    Merge "DTS:2013111405302 Description:UDP特性NV修改为R10，HIBV7R2RF7B、HIBV7R2RF7扣板信息NV合入 Feature or Bugfix:Feature" into br_balongv7r2_bugfix
+
+[33mcommit 331504c657e44f96a28ba0fa6fd64429e314bca0[m
+Author: z00100616 <z00100616@notesmail.huawei.com>
+Date:   Fri Nov 15 00:25:13 2013 +0800
+
+    DTS:2013111405302
+    Description:UDP特性NV修改为R10，HIBV7R2RF7B、HIBV7R2RF7扣板信息NV合入
+    Feature or Bugfix:Feature
+    
+    Change-Id: I02147fda072099b78481273e88dab306d79758fa
+
+[33mcommit e09c9fca6bfef59ce9e6feb4c62b32174e1dbd58[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Thu Nov 14 23:21:57 2013 +0800
+
+    DTS:DTS2013110710267
+    Description:E5 分集暂时规避NV
+    Feature or Bugfix:
+    
+    Change-Id: Ieb8ff1c59bc392cd5af52e326a4291e46f1f8557
+
+[33mcommit a246b3e75194dc43e667365483e166d11ffb44fe[m
+Merge: 0524306 992bdd1
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Wed Nov 13 14:43:59 2013 +0800
+
+    Merge "DTS:DTS2013110507874 Description:DRX NV Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 0524306cb270e9c8fb60894b19c68ec1a5f3cff3[m
+Author: z00228752 <z00228752@notesmail.huawei.com>
+Date:   Wed Nov 13 12:26:10 2013 +0800
+
+    DTS:2013111303384
+    Description:use same change id
+    Change-Id: I2d9b12ce46888effd49bc1571f700c9281806169
+    Feature or Bugfix:
+
+[33mcommit 992bdd16478cfefdb452f215e2c9c0325459805c[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Tue Nov 12 04:35:24 2013 +0800
+
+    DTS:DTS2013110507874
+    Description:DRX NV
+    Feature or Bugfix:
+    
+    Change-Id: I8edf6b9fe467351d809baf269a45392716bdabf0
+
+[33mcommit 0078f33fb2d7e47c9503d301a5629b58f42b54eb[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Mon Nov 11 14:38:51 2013 +0800
+
+    DTS:DTS2013110804379
+    Description:for wdt regulator cpufreq
+    Feature or Bugfix:
+    
+    Change-Id: I13fcab723f7795e84bc5d0563a1425c0126152f6
+
+[33mcommit 5fd8b3ad4831d7d9d04a92a795dc76dc384f21bc[m
+Author: l00196522 <l00196522@notesmail.huawei.com>
+Date:   Wed Nov 6 16:03:17 2013 +0800
+
+    DTS:DTS2013110502053
+    Description:BGS BBIT Modify
+    Feature or Bugfix:Feature
+    
+    Change-Id: I66a24790bc8ba34dd4a0c9c95a359c0bf7c2f0c5
+
+[33mcommit cdfded7e9a316df7e6cfb16a84052a221d1b1549[m
+Author: w54542 <w54542@notesmail.huawei.com>
+Date:   Wed Nov 6 10:51:19 2013 +0800
+
+    DTS:2013110406279
+    Description:bsp4 clear dbg info
+    Feature or Bugfix:
+    
+    Change-Id: Icffaeca6ac9fc67813403decc7cab22d59757be4
+
+[33mcommit bf84988dc58f5de0d9e72e38711277996f854489[m
+Author: z00212940 <z00212940@notesmail.huawei.com>
+Date:   Wed Nov 6 01:47:34 2013 +0800
+
+    DTS:DTS2013110507064
+    Description:update vxworks exc stack
+    Feature or Bugfix:
+    Change-Id: I2e8239ce66911d145631f5cc02d00a872a1bad37
+
+[33mcommit 4c304265f85c86679b36d1318df14df691b8d9a7[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Tue Nov 5 12:11:47 2013 +0800
+
+    DTS:DTS2013110104854
+    Description:open dfs udp e5
+    Feature or Bugfix:
+    
+    Change-Id: Ic7eb2868e2a2e24d4f5f315553b125b8eb6da4d4
+
+[33mcommit 18f953e6154f981da5d5babcce6b1c7390369b6c[m
+Author: y00172000 <y00172000@notesmail.huawei.com>
+Date:   Mon Nov 4 16:39:25 2013 +0800
+
+    DTS:2013101702199
+    Description:上行snr波动，修改nv项
+    Feature or Bugfix:
+    
+    Change-Id: I99347bee1d016eb606cbedf9e73e49b247038ab8
+
+[33mcommit f4b14e589f14ffcbd127941ebcc59d84a320efb9[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Fri Nov 1 15:43:21 2013 +0800
+
+    DTS:DTS2013110104854
+    Description: close dfs nv
+    Feature or Bugfix:
+    
+    Change-Id: Id34fbc96afb48179c476e55fa1f6e3a0f37d750c
+
+[33mcommit 2503ff5c96a04c5e7d9162cb547ad31bd07e3ec2[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Sat Nov 2 00:11:39 2013 +0800
+
+    DTS:NULL
+    Description:增加band13/abnd39 nv, for hanlei
+    Feature or Bugfix:
+    
+    Change-Id: If318a2a83cf7dafdfaf4f68db8ae50ae4a67b31a
+
+[33mcommit b2eb5354d38205c944c452cf3dbe3d8b9a356dbd[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Fri Nov 1 15:13:32 2013 +0800
+
+    DTS:NULL
+    Description:修改时钟切换时间NV，for dongning
+    Feature or Bugfix:
+    
+    Change-Id: I19cecc24859dab031237a388087f56cf9408f3b0
+
+[33mcommit b48748cbe0fb798d537f4933e35b7fe625efb0be[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Thu Oct 31 04:41:45 2013 +0800
+
+    DTS:DTS20131030008291
+    Description:PD ALG UPDATE
+    Feature or Bugfix:
+    
+    Change-Id: I0f92d9268a40646b905c6f903c24899f6278544c
+
+[33mcommit 2c72c040d1a7d0098225405a946365cb45585291[m
+Merge: ea0eb30 3c8a519
+Author: liutao 00222817 <l00222817@notesmail.huawei.com>
+Date:   Sun Oct 27 15:29:25 2013 +0800
+
+    Merge "DTS:DTS2013102614124 Description:band nv Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 3c8a519b763b735f9fd918aeb0088979645d8fbb[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Sat Oct 26 17:59:39 2013 +0800
+
+    DTS:DTS2013102614124
+    Description:band nv
+    Feature or Bugfix:
+    
+    	modified:   hi6930/phy/LDSP_NV_Common_Config_TL.xml
+    
+    Change-Id: I0773c1f50527dc3847627a16610379d029f65e67
+
+[33mcommit ea0eb302720b443f6fb39e1d2a3f5674f1a78531[m
+Author: x00195528 <x00195528@notesmail.huawei.com>
+Date:   Sat Oct 26 16:08:40 2013 +0800
+
+    DTS:2013102607272
+    Description:fix pmu exc nv
+    Feature or Bugfix:
+    
+    Change-Id: I7a299f9fe871c3d392dac9062dcbffc9411a7bda
+
+[33mcommit 02b2e3b1c8dfa11ff08451fddcba1fc3d10d1e9f[m
+Merge: 5798bc9 d396fc6
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Sat Oct 26 16:23:16 2013 +0800
+
+    Merge "DTS:NULL Description:打开DCM E5低功耗，for dongning Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit d396fc6c9d770b6cbeec1b812e28ed3eb28ee055[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Sun Oct 27 00:10:45 2013 +0800
+
+    DTS:NULL
+    Description:打开DCM E5低功耗，for dongning
+    Feature or Bugfix:
+    
+    Change-Id: I79c94e79c8ec351427e0d219cc2e3049978250d3
+
+[33mcommit 5798bc94c7310c60571a4f3325b212e73fac3194[m
+Author: s00219058 <s00219058@notesmail.huawei.com>
+Date:   Sat Oct 26 15:58:03 2013 +0800
+
+    DTS:DTS2013082907554
+    Description:open e5 nv sleep-dfs
+    Feature or Bugfix:
+    
+    Change-Id: Ie14fa95a1e88c995f05fa3aea027d31fe5df6286
+
+[33mcommit 6d05b658b9937c14e0edd33488be3832e3a71b64[m
+Merge: c361577 b323d8d
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Sat Oct 26 12:25:31 2013 +0800
+
+    Merge "DTS:DTS2013102503697 Description:Band28 NV Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit b323d8d2fb19af636941ef7b81595e51c6d80926[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Fri Oct 25 15:25:02 2013 +0800
+
+    DTS:DTS2013102503697
+    Description:Band28 NV
+    Feature or Bugfix:
+    
+    	modified:   hi6930/phy/LDSP_NV_Common_Config_TL.xml
+    
+    Change-Id: Id20ef769d9311b3add0771b5d72ccba067b5dc68
+
+[33mcommit c361577d65ba7aca6953e4058417d8ab559bd79d[m
+Author: w00170956 <w00170956@notesmail.huawei.com>
+Date:   Fri Oct 25 13:34:25 2013 +0800
+
+    DTS:2013102303218
+    Description:bbp and abb tcxo sel by nv
+    
+    Feature or Bugfix:
+    
+    Change-Id: Ic3d0d5344651aaa1ff466c43bd0deb781160c4ea
+
+[33mcommit 2edba297b0aadc441aad5a74843aa7afe495d32b[m
+Author: x00195528 <x00195528@notesmail.huawei.com>
+Date:   Thu Oct 24 20:33:01 2013 +0800
+
+    DTS:2013101006028
+    Description:ldo7,ldo22 off in fastboot for e5
+    Feature or Bugfix:
+    
+    Change-Id: I26a603078da52157d22673e982dec1560f02bc24
+
+[33mcommit e3ca0df7f4e88f3431c9d1ebc994f006b9ae6d04[m
+Author: y00221789 <y00221789@notesmail.huawei.com>
+Date:   Thu Oct 24 11:58:10 2013 +0800
+
+    DTS:DTS2013102108958
+    Description:for dfs nv
+    Feature or Bugfix:
+    
+    Change-Id: I476baa27e64d72ebe77576746a1fb32ba23f6909
+
+[33mcommit 82c91ed4c346c0d8df8f2091fdd896eaa33fae9e[m
+Author: z00228752 <z00228752@notesmail.huawei.com>
+Date:   Wed Oct 23 21:06:46 2013 +0800
+
+    DTS:2013102109071
+    Description:use same change id
+    Change-Id: I20c88a951a20fa38580ac5d9f39433475fe05209
+    Feature or Bugfix:
+
+[33mcommit a6e7c73ce77fe05bfbc4b26726696c1501822a31[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Thu Oct 24 16:43:59 2013 +0800
+
+    DTS:DTS2013100601044
+    Description:DRX IDLE opt
+    Feature or Bugfix:
+    
+    Change-Id: Ied75f8599b52e54d72a61f3f66f0a39252cc8081
+
+[33mcommit 3e9746cece4e9b1f7dbcf4cc9c75f6c358b68c77[m
+Author: l00227190 <l00227190@notesmail.huawei.com>
+Date:   Wed Oct 23 14:16:45 2013 +0800
+
+    DTS:2013102108958
+    Description:fastboot mtcmos dis
+    Feature or Bugfix:
+    
+    Change-Id: I271c656b1debae0ba7eb27ac14a928e2634f0074
+
+[33mcommit 8653d88907be9ec9da44c77be1fe9fac64932fef[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Tue Oct 22 03:13:30 2013 +0800
+
+    DTS:dts2013102105353
+    Description:r11 协议band刷新
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I31151938d9f7e4eb1c1aa746a6382746c5910c51
+
+[33mcommit ec6b3f42b5fb6dd10494a0716591cc5ce7d6702f[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Fri Oct 18 16:56:37 2013 +0800
+
+    DTS:DTS2013018003358
+    Description:DCM NV
+    Feature or Bugfix:
+    
+    Change-Id: Ifad2c085c8c236d66a0cdeeac85a5496e26c6170
+
+[33mcommit 6c5d66661d9cb0242f03a6dc382e4ebda95b492c[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Thu Oct 17 15:10:04 2013 +0800
+
+    DTS:DTS2013092902606
+    Description:MIPI CTRL
+    Feature or Bugfix:
+    
+    Change-Id: Ida922723809dd64924a0ea98b3f995f8b4829905
+
+[33mcommit a40f0c5f6c5c20a637e8b6f501877ae6814436b4[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Wed Oct 16 16:41:05 2013 +0800
+
+    DTS:DTS2013101509036
+    Description:modify NV D01B and open tcxo ctrl
+    Feature or Bugfix:
+    Change-Id: Ifce20a8380439635efa0492abed0d19ff0ff0e7d
+
+[33mcommit f26bbd21a0a81ef045d95430b8f3ccb7bbfeaccc[m
+Author: y00193980 <y00193980@notesmail.huawei.com>
+Date:   Tue Oct 15 12:13:38 2013 +0800
+
+    DTS:DTS2013092605680
+    Description:Modify tl nv files
+    Feature or Bugfix:
+    Change-Id: I2b073b34e057e7ecc3f7dda7b72f482e7e3cafbf
+
+[33mcommit 37baf57844d245a4d9a1f1b8b90d091ab9377854[m
+Merge: 392be7b 42183b9
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Fri Oct 11 16:11:53 2013 +0800
+
+    Merge "DTS:DTS2013092200988 Description:hardware version configuration Feature or Bugfix:change ID number and product name" into br_balongv7r2_bugfix
+
+[33mcommit 392be7b5d27e9c5697bc8dc3d8a4bf777d754a45[m
+Author: b00113022 <b00113022@notesmail.huawei.com>
+Date:   Fri Oct 11 11:35:42 2013 +0800
+
+    DTS:DTS2013100906082
+    Description:bugfix
+    Feature or Bugfix:bugfix
+    
+    Change-Id: Ibd43547e45b714cffc70fdbd41f70af7fb75f931
+
+[33mcommit 42183b9b3d0cf243a418290f7267d5da7d326b34[m
+Author: h00253983 <h00253983@notesmail.huawei.com>
+Date:   Fri Oct 11 10:46:16 2013 +0800
+
+    DTS:DTS2013092200988
+    Description:hardware version configuration
+    Feature or Bugfix:change ID number and product name
+    
+    Change-Id: I6811a01f16a24270b15e470b0dfd764b7894818a
+
+[33mcommit 9c9b4f5bd7802c6f555e885c273c46ace59d992f[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Tue Oct 8 23:31:45 2013 +0800
+
+    DTS:dts2013092604531
+    Description:按照RF射频扣板配置NV
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I4dea1c928e3b0b58d2686854ae3926c5d6f67c29
+
+[33mcommit 54e1dee979a5bcf071ab557a1054043d106ee693[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Mon Sep 30 16:00:55 2013 +0800
+
+    DTS:DTS2013093002371
+    Description:DRX E5低功耗关闭
+    Feature or Bugfix:
+    
+    Change-Id: Icd77f92e1635c51206f1217f9fb0b4afadc46d44
+
+[33mcommit 98400ac9b990c03c362d6721e1bdc8f30ea030fa[m
+Author: l00222817 <l00222817@notesmail.huawei.com>
+Date:   Sun Sep 29 22:01:07 2013 +0800
+
+    DTS:DTS2013092905162
+    Description:EE RF
+    Feature or Bugfix:
+    
+    Change-Id: I2ff1d09df80ebb2056d2ec49bca5254910f0c57e
+
+[33mcommit 0339c70c433a07df397b31714756d14f80ed19a1[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Sun Sep 29 16:32:54 2013 +0800
+
+    DTS:DTS2013092905162
+    Description:EE NV
+    Feature or Bugfix:
+    
+    Change-Id: I157ff31136b98055c555bf72f836dd5a4db39d0b
+
+[33mcommit e2cf807bcf261f368326d7f427a82380330455fc[m
+Merge: 04254ff 57510e6
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Sun Sep 29 15:31:59 2013 +0800
+
+    Merge "DTS:2013090302303 Description:use same change id Feature or Bugfix: Change-Id: Ie2adfd051b535ed369f5a01512682b66f81454d1 	modified:   hi6930/lps/LPS_NV_Common_Config_TL.xml" into br_balongv7r2_bugfix
+
+[33mcommit 04254ff0f701bccd956b875a74cdcc3e5cbbf18a[m
+Merge: 8301bf9 c2f942f
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Sun Sep 29 14:42:12 2013 +0800
+
+    Merge "DTS:DTS2013083001006 Description:add msp sleep nv Feature or Bugfix: Change-Id: I8e98a986478b7445aa432b4dcd408a4007c4f15b" into br_balongv7r2_bugfix
+
+[33mcommit 8301bf94f2d4fca13c2fc1293eadced7d893a948[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Sun Sep 29 13:13:22 2013 +0800
+
+    DTS:DTS2013092902606
+    Description:MIPI
+    Feature or Bugfix:
+    
+    Change-Id: Ibb63771cc5084b3cd1a08be76e8938247e4b2fab
+
+[33mcommit c2f942f02652354afd5b0729fc464a0010f2535f[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Sun Sep 29 12:18:29 2013 +0800
+
+    DTS:DTS2013083001006
+    Description:add msp sleep nv
+    Feature or Bugfix:
+    Change-Id: I8e98a986478b7445aa432b4dcd408a4007c4f15b
+
+[33mcommit 7a3709a0bb1b03e997bf7d083e5336bd01923286[m
+Merge: c3c56bf ea7bab5
+Author: zhangteng 00221552 <z00221552@notesmail.huawei.com>
+Date:   Sun Sep 29 11:09:45 2013 +0800
+
+    Merge "DTS:DTS2013092702743 Description:B5 B8 B20 NV Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit ea7bab50cb7bbb10edd6547a0966287eb416472b[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Sun Sep 29 10:29:19 2013 +0800
+
+    DTS:DTS2013092702743
+    Description:B5 B8 B20 NV
+    Feature or Bugfix:
+    
+    Change-Id: I96ffb6fd97061bc61c4b5684d71ecb0d451228f2
+
+[33mcommit c3c56bf5f7630a42da6cb11a1c45d10d67e6c50a[m
+Author: z00228752 <z00228752@notesmail.huawei.com>
+Date:   Fri Sep 27 17:51:28 2013 +0800
+
+    DTS:2013092603592
+    Description:use the same change id
+    Feature or Bugfix:
+    Change-Id: I23bd0c1931d86404a63cb4a500926d96c4535106
+
+[33mcommit 57510e6973893217538407afbc26794b8e2b359c[m
+Author: w00151278 <w00151278@notesmail.huawei.com>
+Date:   Fri Sep 27 17:24:41 2013 +0800
+
+    DTS:2013090302303
+    Description:use same change id
+    Feature or Bugfix:
+    Change-Id: Ie2adfd051b535ed369f5a01512682b66f81454d1
+    	modified:   hi6930/lps/LPS_NV_Common_Config_TL.xml
+
+[33mcommit 145a577004943da1c39ae55c47a6e33d9160fd10[m
+Author: z00100616 <z00100616@notesmail.huawei.com>
+Date:   Fri Sep 27 10:37:43 2013 +0800
+
+    DTS:DTS2013092405700
+    Description:Modify NV
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: Iff16c4e9003ead5189597ef91eec0098096430f9
+
+[33mcommit 73d382eb3f9927b0b3b11fac3362783ef107dcad[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Thu Sep 26 15:30:48 2013 +0800
+
+    DTS:DTS2013092403050
+    Description:DRX NV修改
+    Feature or Bugfix:
+    
+    Change-Id: If7cb0a3e80f710c2f907ab2972cfa60054d871e6
+
+[33mcommit 45e0ac842de8e62ead7927ec42e85ad711b52851[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Wed Sep 25 15:27:40 2013 +0800
+
+    DTS:DTS2013091102366
+    Description:TDS SYNC v9r1 180
+    Feature or Bugfix:Feature
+    
+    Change-Id: Ifdf19655adf48f015f0d5a36c2bce9db8aff916b
+
+[33mcommit 72da63320c22106bfa63b039316bc06280884b21[m
+Author: z00228752 <z00228752@notesmail.huawei.com>
+Date:   Tue Sep 24 15:00:38 2013 +0800
+
+    DTS:2013092403445
+    Description:version hw
+    Feature or Bugfix:
+    
+    Change-Id: I899c7a979a0f4715d82a9fdc92ef5f5ee7b1f849
+
+[33mcommit 4710792f0d0986a36c32561037e2776569aefddc[m
+Merge: ee88085 5c9bf31
+Author: hanlei 00133115 <h00133115@notesmail.huawei.com>
+Date:   Sun Sep 22 16:10:32 2013 +0800
+
+    Merge "DTS:DTS2013091802531 Description:AGC NV Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 5c9bf31ee834a10e87a5478be728e091c0c08d09[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Sun Sep 22 10:40:36 2013 +0800
+
+    DTS:DTS2013091802531
+    Description:AGC NV
+    Feature or Bugfix:
+    
+    Change-Id: Idc0b88097a2d5007431536f68ddefb017174b56a
+
+[33mcommit ee88085ab3e606085ac04608f48fdef808766037[m
+Author: z00100616 <z00100616@notesmail.huawei.com>
+Date:   Wed Sep 18 10:48:41 2013 +0800
+
+    DTS:DTS2013090206395
+    Description:modified LPS_NV_UDP_Diff_TL.xml
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I3b7eb1f354b83d4fe7ca77307fc611713ccfa86f
+
+[33mcommit 1232166725ef30fd07e93951edf178e070fb1055[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Sat Sep 14 18:28:28 2013 +0800
+
+    DTS:DTS2013091307802
+    Description:RFGAIN
+    Feature or Bugfix:
+    
+    Change-Id: Id9fa86876c1524e796390c74bff3e4cb2f979f8d
+
+[33mcommit 0e69ff0c1ce94fd09ceaf6dde643fa05597aa5ab[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Sat Sep 14 11:48:39 2013 +0800
+
+    DTS:DTS2013091307802
+    Description:RFGAIN
+    Feature or Bugfix:
+    
+    Change-Id: Ie4a88a0b034fb2702db9e1cd8fc4b4b449f5daef
+
+[33mcommit ee249b3ad952bf1e0862330c14a19133cd008127[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Thu Sep 12 19:55:27 2013 +0800
+
+    DTS:DTS2013091202864
+    Description:SCC DCOC
+    Feature or Bugfix:
+    
+    Change-Id: Ie8ca7e1c36f3487112c93edbf5ef45c8bda021de
+
+[33mcommit 8628422129f4564d5ab6481b812195fcaad814ca[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Thu Sep 12 13:10:04 2013 +0800
+
+    DTS:DTS2013091108423
+    Description:Apt Ctrl
+    Feature or Bugfix:
+    
+    Change-Id: I1f3779b130df3b3d084884aef00ee32d653f490e
+
+[33mcommit 3c7075a6b8f8762dbb5fceff0b609f3881b57148[m
+Author: f00241583 <f00241583@notesmail.huawei.com>
+Date:   Thu Sep 12 10:15:30 2013 +0800
+
+    DTS:DTS2013091108719
+    Description:B8NV
+    Feature or Bugfix:
+    
+    Change-Id: Idf4b1fa985aa309df4c531482a2821acf7cb12b6
+
+[33mcommit 43d9007f8108646e563132c685e1dcb8ba49e9c8[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Tue Sep 10 18:55:43 2013 +0800
+
+    DTS:DTS2013090903089
+    Description:DRX
+    Feature or Bugfix:bugfix
+    
+    Change-Id: I868e2dd68475975ff2631dd716daa1d6849a6879
+
+[33mcommit 4b94479bef9085d29ec1835747415bafb30966c0[m
+Author: d00130305 <d00130305@notesmail.huawei.com>
+Date:   Mon Sep 9 20:24:13 2013 +0800
+
+    DTS:DTS2013090903089
+    Description:DRXNV
+    Feature or Bugfix:bugfix
+    
+    Change-Id: Id3af19e2a5a882bf372bfa905bda3f822c088540
+
+[33mcommit 730818496f7d395aa42016d40ade0cee9e258eee[m
+Merge: 6334731 d0a80d4
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Mon Sep 9 13:00:13 2013 +0800
+
+    Merge "DTS:DTS2013090600321 Description:修改窄带和ACS门限,for peixinxin Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 63347310a5d9ce27b327a119fe4d4359611307b1[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Mon Sep 9 10:48:21 2013 +0800
+
+    DTS:dts2013081505956
+    Description:UE不支持DTM功能
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I9a7d3cc265797ce9a79ff5234e1da3a71773fe86
+
+[33mcommit d0a80d42cbe9c50a80e7b9d7ff9edc9b8ae8e382[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Fri Sep 6 18:20:24 2013 +0800
+
+    DTS:DTS2013090600321
+    Description:修改窄带和ACS门限,for peixinxin
+    Feature or Bugfix:
+    
+    Change-Id: I695c78be9cc6c6cb71505b3f5a7d6d9769dda4ff
+
+[33mcommit c14791f458b3a178aebf59662a90d541b2036854[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Tue Sep 3 17:55:21 2013 +0800
+
+    DTS:dts2013082908832
+    Description:add ca ul capability
+    Feature or Bugfix:Bugfix
+    
+    Change-Id: I132beeeb3d8d46cd8610be3e9b58afc84dd27234
+
+[33mcommit bf45f61708979647fc0c9128bb5317ef2a5fadd0[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Sat Aug 31 19:41:37 2013 +0800
+
+    DTS:DTS2013083100326
+    Description:解决NV编译不过问题,for liuwenhui
+    Feature or Bugfix:
+    
+    Change-Id: I39b5be87c51d8b8ab84faaf2ecb7a5a0c66350aa
+
+[33mcommit 3664f4622d2799acfd8c33f1156aae61b33db9b3[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Sat Aug 31 16:51:40 2013 +0800
+
+    DTS:2013083103801
+    Description:Temp comp
+    Feature or Bugfix:
+    
+    Change-Id: Icb1d8d97a2b54287103dbcae5d2918f546e48370
+
+[33mcommit 91c3ae58274e88ea8b294f57b76f7b18f2a3d032[m
+Merge: 180ffeb 79dc671
+Author: zhouluojun 67193 <z67193@notesmail.huawei.com>
+Date:   Fri Aug 30 11:50:32 2013 +0800
+
+    Merge "DTS:2013083001006 Description:低功耗代码检视修改合入 Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 79dc671ece660618e194756576663446f7e2ec8b[m
+Author: f00221597 <f00221597@notesmail.huawei.com>
+Date:   Fri Aug 30 10:11:02 2013 +0800
+
+    DTS:2013083001006
+    Description:低功耗代码检视修改合入
+    Feature or Bugfix:
+    
+    Change-Id: Ic4faca0618ab5e753f8d9d0d3723e25d937e7b08
+
+[33mcommit 180ffebff2b9b7d8628d4f81e95195808d42ee45[m
+Author: w00170956 <w00170956@notesmail.huawei.com>
+Date:   Thu Aug 29 20:56:33 2013 +0800
+
+    DTS:2013082709146
+    Description:fix hkadc version, support udp and rf board
+    Feature or Bugfix:
+    
+    Change-Id: Id37f161f5ed86992dd0990800981607d20f654c4
+
+[33mcommit 465b09ca715842c9018fbb5b54460a0d55c90bbd[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Mon Aug 26 16:53:17 2013 +0800
+
+    DTS:DTS2013082600321
+    Description:modify dcm nv for shijiahong
+    Feature or Bugfix:
+    
+    Change-Id: I812d0b4c63a8a33fa23ecb7a811c2ad1d71f7c0b
+
+[33mcommit c9cbb2cdeb5e2820d006a3561171e71b1a2f0d97[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Sat Aug 24 11:26:01 2013 +0800
+
+    DTS:DTS2013082308609
+    Description:modefy afc pdm src for channel 1 on v7r2 rf board
+    Feature or Bugfix:
+    
+    Change-Id: Iec3fcedda3dced6085e7b2ea167efb4e81d493c5
+
+[33mcommit ee712d5a727827c67d6a0816ecea2b4faf1b63b1[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Sat Aug 24 10:17:23 2013 +0800
+
+    DTS:dts2013082209871
+    Description:nv
+    Feature or Bugfix:Feature
+    
+    Change-Id: I39bdf58371af6826f7eab9cd3b4deeddecb54c4e
+
+[33mcommit f3acb543546c948cfa41b65916cd3d42e11909c1[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Fri Aug 23 17:24:52 2013 +0800
+
+    DTS:DTS2013071602655
+    Description:ZUC算法默认关闭,for wangchen
+    Feature or Bugfix:
+    
+    Change-Id: Ie715bcd3f50c08f00ad4cc5fcdfb35b91c5d0df5
+
+[33mcommit d738a037b5bca54ae81f6dffc50d8e6f5325c8b6[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Fri Aug 23 10:56:18 2013 +0800
+
+    DTS:DTS2013082302035
+    Description:v7r2 dcm xml diff add
+    Feature or Bugfix:
+    
+    	new file:   hi6930/phy/NV_LPHY_E5_Product_Diff.xml
+    
+    Change-Id: I12f6332847d6b80cd1cb6a1d6ab1167b3e4edd2b
+
+[33mcommit 2caeb9e2d907de79c6db863c748b3b95a4d4771a[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Thu Aug 22 15:11:14 2013 +0800
+
+    DTS:DTS2013082204701
+    Description:rfd nv update
+    Feature or Bugfix:
+    Change-Id: I79041e98672112ea4c1030ba562c992018239597
+    
+    	modified:   hi6930/phy/LDSP_NV_Common_Config_TL.xml
+
+[33mcommit 8cbd2fed0c94c42881336933d7b2e74667e0ac7c[m
+Merge: a5ce2da 5c1398f
+Author: honghuiyong 00164941 <h00164941@notesmail.huawei.com>
+Date:   Tue Aug 20 17:04:46 2013 +0800
+
+    Merge "DTS:DTS2013080207160 Description:update rfic config seqence Feature or Bugfix:" into br_balongv7r2_bugfix
+
+[33mcommit 5c1398fc0bfe270415c13ede61e59c2c075969a1[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Tue Aug 20 11:40:53 2013 +0800
+
+    DTS:DTS2013080207160
+    Description:update rfic config seqence
+    Feature or Bugfix:
+    
+    Change-Id: I133480c9f0e2c5fae74d37bb85ba0ea309e6e42b
+
+[33mcommit a5ce2dac9088b8d9faddbb8f4d0819cfda0d323a[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Tue Aug 20 10:48:38 2013 +0800
+
+    DTS:DTS2013080604234
+    Description:FeatureGroup
+    Feature or Bugfix:BugFix
+    
+    Change-Id: I551613bd750d08ff2087e986ee73cf169c26af33
+
+[33mcommit beaa06ae6a649b672be590458b89d1c7d010a1a2[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Sat Aug 17 03:59:17 2013 +0800
+
+    DTS:2013081601502
+    Description:B7 Tx
+    Feature or Bugfix:
+    
+    Change-Id: I17822e24b37860bdc4d95eeefb3f1ec9dca39037
+
+[33mcommit fd0ecab918af42343a540bf7ea97bb3bc35662e9[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Sat Aug 17 03:17:15 2013 +0800
+
+    DTS:2013081601502
+    Description:Nv
+    Feature or Bugfix:
+    
+    Change-Id: I2b7e72d4726ca2122a236ebd8aa5692dde783c2f
+
+[33mcommit 89a4697aa9cbb90c0f53a66eeb5f16df27623e23[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Fri Aug 16 18:58:34 2013 +0800
+
+    DTS:2013081601502
+    Description:TDS freq
+    Feature or Bugfix:
+    
+    Change-Id: I2ef3016aafaa9cf22e1abaa75daff20eaddb3875
+
+[33mcommit 06f5030d40236031c6dafcba25aca63d75f7a78b[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Thu Aug 15 15:44:02 2013 +0800
+
+    DTS:2013001506220 Description: chipready分支往bugfix分支漏合 Feature or Bugfix: Bugfix
+    
+    Change-Id: I3bbe41abaf38bed3775628b0196e2f8ffd307863
+
+[33mcommit 569a0c4b214f665b11d743e9b893ea59b51eff94[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Wed Aug 14 14:22:47 2013 +0800
+
+    DTS:20130813
+    Description:TDS NV xml change
+    Feature or Bugfix:Feature
+    
+    Change-Id: Ide3474e57615340c09ea92e1ff6a4c42d16dcfe8
+
+[33mcommit 9589d799e2f05bf65826b6b95749485f9ee87d31[m
+Merge: 4cd0fb1 c312550
+Author: liutao 00222817 <l00222817@notesmail.huawei.com>
+Date:   Tue Aug 13 20:23:40 2013 +0800
+
+    Merge "DTS:20130812 Description:TDS DSP nv change Feature or Bugfix:Feature" into br_feature_balongv7r2b150_chipready_debug
+
+[33mcommit c3125507ea17405c16cf1d3bd41b5066778b71dc[m
+Author: m00128895 <m00128895@notesmail.huawei.com>
+Date:   Tue Aug 13 20:13:38 2013 +0800
+
+    DTS:20130812
+    Description:TDS DSP nv change
+    Feature or Bugfix:Feature
+    
+    Change-Id: Icbb177e459a1b3a40b6929e3a18eb37229170013
+
+[33mcommit 4cd0fb1a63c0eb338009a22b23e3a7504f048165[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Tue Aug 13 19:43:28 2013 +0800
+
+    DTS:DTS2013081300321
+    Description:回片分支代码同步
+    Feature or Bugfix:
+    
+    Change-Id: I401fa2d52aed650cb383dcc48da4fc39fb682704
+
+[33mcommit abcc220cd57a5a0483b0e65760cb758d6db65eba[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Tue Aug 13 10:27:12 2013 +0800
+
+    DTS:dts2013080701779
+    Description:add reg update
+    Feature or Bugfix:
+    
+    Change-Id: I827aac4c6cf9c45fd53067d104d94d4ec8c94409
+
+[33mcommit cf713f0cb1e946aebeb2a1f1d21107d2f12b7284[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Thu Aug 1 00:20:39 2013 +0800
+
+    DTS:2013073105709
+    Description:Scc Cal
+    Feature or Bugfix:
+    
+    Change-Id: Ia6a3d6c272a30cda9111be75b56fc1f44f9bc1a8
+
+[33mcommit 956ce0826e4645cdeaf97c1631c0cc4716a72979[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Wed Jul 31 10:28:57 2013 +0800
+
+    DTS:
+    Description:modify for baimeng
+    Feature or Bugfix:
+    
+    Change-Id: I149dff988792e67fc009cd914ba30bf7ff866bd3
+
+[33mcommit 6a86f7734c1e9ed2ffb5e7479c3b38c28eb6b6db[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Mon Jul 29 19:26:21 2013 +0800
+
+    DTS:
+    Description:modify for xueqiuyan
+    Feature or Bugfix:
+    
+    Change-Id: I390625f24f62f2d58741ed46fc7fab8ab432c0c4
+
+[33mcommit e5cb2d33d7f4dea856a07cdbb4a4eb27237e349f[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Tue Jul 23 14:23:13 2013 +0800
+
+    DTS:dts2013072303889
+    Description:update band41 nv para for ca
+    Feature or Bugfix:
+    
+    Change-Id: I69417c4003f628b3c04635e9dda96b038c987e3d
+
+[33mcommit 089b5697fac6e6f81fb5d69a0627c81ee20b93bf[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Fri Jul 19 17:05:07 2013 +0800
+
+    DTS:2013071709005
+    Description:Power Detect Merge
+    Feature or Bugfix:
+    
+    Change-Id: Ifc73aa968aeabe2f0b6217ecef8ad41852f3d1e8
+
+[33mcommit a17e6ea96e14115771f95be036751c2d6d3d0515[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Fri Jul 19 03:29:30 2013 +0800
+
+    DTS:2013071709005
+    Description:PD header file
+    Feature or Bugfix:
+    
+    Change-Id: I7502adb520d5bebb88149fb2789796550f5ed7b2
+
+[33mcommit 8eca608f9a4d14ee8dc92ded502aba43f313c085[m
+Author: l00222817 <l00222817@notesmail.huawei.com>
+Date:   Fri Jul 12 20:08:06 2013 +0800
+
+    DTS:
+    Description:add by shijiahong pilot ec xml
+    Feature or Bugfix:
+    
+    Change-Id: I0c169c2ef6716a7e8fb62383600f8a7c3569be8f
+
+[33mcommit f77e10d12db3b6f8bb2d194f9766c5e303e7fa8d[m
+Author: l00222817 <l00222817@notesmail.huawei.com>
+Date:   Fri Jul 12 18:33:34 2013 +0800
+
+    DTS:
+    Description:add by shijiahong
+    Feature or Bugfix:
+    
+    Change-Id: Iabfe30c8c0b49d7e1027e8017c9abb192b58fc44
+
+[33mcommit e3a0b6ee989177fc0f315a676325776e9c8d1fc3[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Fri Jul 12 15:11:23 2013 +0800
+
+    DTS:dts2013071204715
+    Description:update interface
+    Feature or Bugfix:
+    
+    Change-Id: I4f93d0bd4d589f703c65983d6274d401a50a9eef
+
+[33mcommit 1458f5f56f2e5a86c11d1d3e3e0244c0d4271949[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Fri Jul 12 21:27:19 2013 +0800
+
+    DTS:2013071203328
+    Description:Agc tbl
+    Feature or Bugfix:
+    
+    Change-Id: Ibd11dadf37a94d8e13d5c1bef463425efd7cd7cc
+
+[33mcommit 108f0df54ce395fbad7cd1ccdb761fd26d29a01d[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Wed Jul 3 13:57:40 2013 +0800
+
+    DTS:dts2013062500246
+    Description:intra band ca sample rate (merge failed )
+    Feature or Bugfix:
+    
+    Change-Id: Ie94e1fa4f7c90eb345aae93171791874a4527c22
+
+[33mcommit 7862e0f820bbaa7d89cc04449138d1fd3b6441e7[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Sat Jun 29 15:56:43 2013 +0800
+
+    DTS:2013062106220 Description: 新需求，规避HSO死机问题，暂时将低功耗关闭， Feature or Bugfix: Bugfix
+    
+    Change-Id: Ibb57bd424e3439bd4c94c43165293c7276635fc3
+
+[33mcommit 51bf664c0556e0a9f9865b7d9e0d44f7389329d3[m
+Author: s00175552 <s00175552@notesmail.huawei.com>
+Date:   Thu Jun 27 16:07:25 2013 +0800
+
+    DTS:2013061701735
+    Description:Change AFC nv para
+    Feature or Bugfix:
+    
+    Change-Id: I3e59674fe94956df2aa15c5823fea39454beac1d
+
+[33mcommit c455158a305cda5b089a92cc41b58952462674ff[m
+Merge: 36a8e41 a0c2b00
+Author: hujianbo 00238358 <h00238358@notesmail.huawei.com>
+Date:   Wed Jun 26 17:46:20 2013 +0800
+
+    Merge "DTS:20130626 Description:nv modify xml file Feature or Bugfix:w00151278" into br_balongv7r2_bugfix
+
+[33mcommit 36a8e41d80352f04641b54d12ad8932c59a4f8c2[m
+Author: h00133115 <h00133115@notesmail.huawei.com>
+Date:   Thu Jun 27 00:38:21 2013 +0800
+
+    DTS:2013062002933
+    Description:B1,B19 Agc Table merg
+    Feature or Bugfix:
+    
+    Change-Id: I8a1df92cb28f0a5aa5a34a4c5504839525883fff
+
+[33mcommit a0c2b0073bd4dbd3507497d8b78be17b895a54c8[m
+Author: w00151278 <w00151278@notesmail.huawei.com>
+Date:   Wed Jun 26 18:35:29 2013 +0800
+
+    DTS:20130626
+    Description:nv modify xml file
+    Feature or Bugfix:w00151278
+    
+    Change-Id: I6cce721b09c4d5b1c755244e4e7db58303f625cc
+
+[33mcommit 1acde62bc9a93e6f7677156eb410d9912fa36f1b[m
+Author: s00181739 <s00181739@notesmail.huawei.com>
+Date:   Wed Jun 26 01:36:18 2013 +0800
+
+    DTS:dts2013062404408
+    Description:v9r1 rf board intra band ca para add
+    Feature or Bugfix:
+    
+    Change-Id: I0e867a340a0bd9b17f29ec51589c2f94a20e4119
+
+[33mcommit 7f749481bbf00c4365b89c491c33caf52da30e88[m
+Author: c00213443 <c00213443@notesmail.huawei.com>
+Date:   Mon Jun 24 19:55:11 2013 +0800
+
+    DTS:2013061908446 Description: 新需求，XML 合入CA UE能力，验证通过，不影响现有功能， Feature or Bugfix: Bugfix
+    
+    Change-Id: Ie68fbca809bbcdd837b1d685bc15505641a552f5
+
+[33mcommit 7c1649df7f799dbd9751f69be40a90723dfeff62[m
+Author: y00228784 <y00228784@notesmail.huawei.com>
+Date:   Mon Jun 24 15:25:41 2013 +0800
+
+    DTS:20130624001
+    Description:nv xml modify
+    Feature or Bugfix:
+    
+    Change-Id: Ic59974affbea9a831600181e035ae180408e5c14
+
+[33mcommit 35c7fc77a4cba4a985cfff73471a47db1511ef9b[m
+Author: h00238358 <h00238358@notesmail.huawei.com>
+Date:   Fri Jun 21 18:56:58 2013 +0800
+
+    DTS:
+    Description:nv update for yuyangyang
+    Feature or Bugfix:
+    
+    Change-Id: I5d82a161163f420b9601ad18958e1c3d0f5cab73
+
+[33mcommit 3230e3af1ce1a9e346d653d40b6ad2b01d1f9ab4[m
+Author: l00227173 <l00227173@notesmail.huawei.com>
+Date:   Fri Jun 21 11:15:17 2013 +0800
+
+    nv_update
+
+[33mcommit f189658c13fd60016a66dd0db6d58fd5ca0bee41[m
+Author: l00227173 <l00227173@notesmail.huawei.com>
+Date:   Thu Jun 13 16:30:04 2013 +0800
+
+    for nv
+
+[33mcommit b51402c616803b0d4a33c24b8199424eaa133bf0[m
+Author: l00227173 <l00227173@notesmail.huawei.com>
+Date:   Fri May 17 17:11:28 2013 +0800
+
+    nv_fencang

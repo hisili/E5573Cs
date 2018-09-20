@@ -1,0 +1,11 @@
+#
+# vsim configuration
+#
+
+comment "read vsim data"
+
+config VSIM_SUPPORT
+    tristate "read vsim ddr data"
+    default y
+    help
+        read vsim ddr data

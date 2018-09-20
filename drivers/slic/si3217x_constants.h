@@ -1,0 +1,110 @@
+/*
+** Copyright (c) 2010 Silicon Laboratories, Inc.
+** 2010-06-21 16:44:49
+**
+** Si3217x SiVoice API Configuration Tool Version 2.1L
+*/
+
+
+
+
+#ifndef SI3217X_CONSTANTS_H
+#define SI3217X_CONSTANTS_H
+
+/** Ringing Presets */
+enum {
+	RING_F20_45VRMS_0VDC_LPR,
+    RING_F20_45VRMS_0VDC_BAL,
+    RING_F20_55VRMS_48VDC_LPR,
+	RING_F25_45VRMS_0VDC_LPR,
+	RING_F25_55VRMS_0VDC_LPR,
+	RING_F25_51VRMS_0VDC_LPR,
+    RING_F25_45VRMS_0VDC_BAL,
+    RING_F25_55VRMS_48VDC_LPR
+};
+
+/** DC_Feed Presets */
+enum {
+	DCFEED_48V_20MA,
+	DCFEED_48V_25MA,
+	DCFEED_PSTN_DET_1,
+	DCFEED_PSTN_DET_2
+};
+
+/** Impedance Presets */
+enum {
+	ZSYN_600_0_0_30_0,
+	ZSYN_270_750_150_30_0,
+	ZSYN_370_620_310_30_0,
+	ZSYN_220_820_120_30_0,
+	ZSYN_600_0_1000_30_0,
+	ZSYN_200_680_100_30_0,
+	ZSYN_220_820_115_30_0
+};
+
+/** FSK Presets */
+enum {
+	DEFAULT_FSK
+};
+
+/** Pulse_Metering Presets */
+enum {
+	DEFAULT_PULSE_METERING
+};
+
+/** Tone Presets */
+enum {
+	TONEGEN_FCC_DIAL,
+	TONEGEN_FCC_BUSY,
+	TONEGEN_FCC_RINGBACK,
+	TONEGEN_FCC_REORDER,
+	TONEGEN_FCC_CONGESTION,
+	DTMF_D,
+	DTMF_1,
+	DTMF_2,
+	DTMF_3,
+	DTMF_4,
+	DTMF_5,
+	DTMF_6,
+	DTMF_7,
+	DTMF_8,
+	DTMF_9,
+	DTMF_0,
+	DTMF_X,
+	DTMF_J,
+	DTMF_A,
+	DTMF_B,
+	DTMF_C
+};
+
+/** PCM Presets */
+enum {
+	PCM_8ULAW,
+	PCM_8ALAW,
+	PCM_16LIN,
+	PCM_16LIN_WB
+};
+enum {
+	GEN_DIAL_TONE,
+	GEN_BUSY_TONE,
+	GEN_ALARM_TONE,
+	GEN_TIP_TONE,
+	GEN_FAULT_TONE,
+	GEN_CALL_WAITING_TONE,
+    GEN_RINGBACK_TONE,
+    GEN_CONFIRMATION_TONE,
+    GEN_VM_STUTTER_TONE,
+    GEN_CALL_FWD_RMD_TONE,
+    DEFAULT_TONE
+};
+
+/** Multiple BOM General Param */
+enum {
+	GEN_PARAM_FLYBACK,
+	GEN_PARAM_BUCK_BOOST
+};
+
+
+
+#endif
+

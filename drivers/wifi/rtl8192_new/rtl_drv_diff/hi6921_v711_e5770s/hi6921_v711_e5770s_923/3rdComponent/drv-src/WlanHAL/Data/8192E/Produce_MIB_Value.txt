@@ -1,0 +1,56 @@
+
+ //<   set  mib value,此txt文档必须遵循以下格式：<mib_name><一个或多个空格or TAB键><mib value>   >
+ 
+ //< 以下是设置外置LNA rssi mib value >
+use_ext_lna				1
+ext_lna_gain				12
+rssi_offset				2
+ofdm_rssi_offset			3
+rx_pwr_7				-34
+rx_pwr_6				-48
+rx_pwr_5				-32
+rx_pwr_4				-26
+rx_pwr_3				-11
+rx_pwr_2				2
+rx_pwr_1				15
+rx_pwr_0				10
+cck_cca_hi				131
+cck_cca_low				131
+lna_rx_hi				47
+lna_rx_low				47
+trswitch				1
+
+//<以下是提升功率参数设置>
+   //11b功率提升参数
+txPowerPlus_cck_1		5
+txPowerPlus_cck_2		5
+txPowerPlus_cck_5		5
+txPowerPlus_cck_11		5
+   //11g功率提升参数
+txPowerPlus_ofdm_6		3
+txPowerPlus_ofdm_9		3
+txPowerPlus_ofdm_12		3
+txPowerPlus_ofdm_18		3
+txPowerPlus_ofdm_24		3
+txPowerPlus_ofdm_36		3
+txPowerPlus_ofdm_48		3
+txPowerPlus_ofdm_54		3
+   //11n功率提升参数
+txPowerPlus_mcs_0		4
+txPowerPlus_mcs_1		4
+txPowerPlus_mcs_2		4
+txPowerPlus_mcs_3		4
+txPowerPlus_mcs_4		4
+txPowerPlus_mcs_5		4
+txPowerPlus_mcs_6		4
+txPowerPlus_mcs_7		4
+txPowerPlus_mcs_8		4
+txPowerPlus_mcs_9		4
+txPowerPlus_mcs_10		4
+txPowerPlus_mcs_11		4
+txPowerPlus_mcs_12		4
+txPowerPlus_mcs_13		4
+txPowerPlus_mcs_14		4
+txPowerPlus_mcs_15		4
+//< 以下为 CCA 自适应模式 mib value >
+adaptivity_enable		2

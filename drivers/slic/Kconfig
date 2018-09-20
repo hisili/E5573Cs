@@ -1,0 +1,9 @@
+#
+# SLIC driver configuration
+#
+
+
+config SLIC
+	bool "slic driver"
+	help
+	      slic driver
